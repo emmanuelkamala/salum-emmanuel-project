@@ -13,4 +13,4 @@ inline elements like strong, em, span, a box model applies differently than bloc
 inline elements can't have width and height properties and margin top and bottom properties but they can have padding top and bottom properties and line height property and text align property and vertical align property 
 
 ## inline-block elements
-inline-block elements can have width and height properties and margin top and bottom properties and padding top and bottom properties and line height property and text align property and vertical align property
+inline-block elements can have width and height properties and margin top and bottom properties and padding top and bottom properties and line height property and text align property and vertical align property. Example of inline-block elements are img, input, button, textarea, select, label, iframe, video, audio, canvas, details, embed, object, picture, source, summary, track, video, wbr

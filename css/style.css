@@ -19,3 +19,7 @@ a:visited {
 ol li {
   display: inline; /* it will change this element to inline level element*/
 }
+
+nav a:link:last-child {
+  margin-right: 0;
+} /* chaining the pseudo class */
