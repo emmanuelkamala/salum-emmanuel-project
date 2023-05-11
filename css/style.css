@@ -48,3 +48,9 @@ p::first-line {
   color: red;
   font-style: italic;
 }
+
+h3 + p::first-line {
+  font-size: 20px;
+  color: gold;
+  font-style:oblique;
+}
