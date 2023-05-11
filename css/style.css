@@ -1,3 +1,7 @@
-a {
+a:link {
   color: #1098ad;
+}
+
+a:visited {
+  color: #101010;
 }
