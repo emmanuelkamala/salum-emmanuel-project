@@ -37,7 +37,7 @@ button {
 /* pseudo element */
 /* ::before and ::after are pseudo elements */
 
-nav a::first-letter {
+nav a:link::last-letter {
   font-size: 30px;
   color: red;
 }
