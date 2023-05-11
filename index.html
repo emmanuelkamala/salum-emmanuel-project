@@ -1,63 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <title>The Basic Language of the Web: HTML</title>
   </head>
 
   <body>
-      <header class="container" id="header">
-          <figure id="image">
-          <img id="header-img" src="https://media.istockphoto.com/vectors/piano-icon-isolated-on-white-background-vector-id854405958?k=6&m=854405958&s=612x612&w=0&h=Bead7B_9xO024m_BYfu4MWJrZQgOBEyUsOoN2TBk9I4=" alt="Piano">
-          <figcaption>A Right Piano For You</figcaption>
-          </figure><br>
-        <nav id="nav-bar">
-            <a href="#feature" class="nav-link">Features </a>
-            <a href="#pricing" class="nav-link">Pricing</a>
-            <a href="#video" class="nav-link">How it works</a>
-          
-        </nav>
-      </header>
-      <div class="product-features">
-        <h2 class="item" id="feature">Feature</h2>
-        <p class="item" >
-          Lorem ipsum dolor amet fashion axe cronut mustache franzen waistcoat intelligentsia poutine squid flannel culpa church-key. Blog selvage four loko, hexagon glossier taiyaki neutra marfa chillwave.<br><br>
-          Lorem ipsum dolor amet fashion axe cronut mustache franzen waistcoat intelligentsia poutine squid flannel culpa church-key. Blog selvage four loko, hexagon glossier taiyaki neutra marfa chillwave.<br><br>
-          Lorem ipsum dolor amet fashion axe cronut mustache franzen waistcoat intelligentsia poutine squid flannel culpa church-key. Blog selvage four loko, hexagon glossier taiyaki neutra marfa chillwave.
-        </p>
-      </div><br><br>
-      <h2 class="item" id="pricing">Pricing</h2>
-      <div class="product-pricing">
-	  <div class="firstProduct">
-	  <p><h3>$1500</h3></p>
-        <p>	
-          Lorem ipsum dolor amet velit VHS lumbersexual, typewriter kitsch drinking vinegar skateboard vice tumblr. Celiac culpa cliche reprehenderit, vexillologist quinoa sint fingerstache skateboard ipsum yuccie tbh tousled. Cray umami blog, do bitters poutine humblebrag.<br>
-          <button class="pricing-button">BUY</button>
-        </p>
-		</div>
-		<div class="secondProduct">
-        <p><h3>$900</h3></p>
-		<p>
-          Lorem ipsum dolor amet velit VHS lumbersexual, typewriter kitsch drinking vinegar skateboard vice tumblr. Celiac culpa cliche reprehenderit, vexillologist quinoa sint fingerstache skateboard ipsum yuccie tbh tousled. Cray umami blog, do bitters poutine humblebrag.<br>
-          <button class="pricing-button">BUY</button>
-        </p>
-		</div>
-      </div>
-      <div class="product-working">
-      <iframe width="853" height="480" id="video" src="https://www.youtube.com/embed/HhEB7UpYbyw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      </div>
-      <!-- <div class="form"> -->
-         <h5 class="item">Sign up for email updates</h5><br>
-        <form id="form" action="https://www.freecodecamp.com/email-submit" method="GET">
-        <input type="email" id="email" name="email" placeholder="EMAIL" required>
-        <input type="submit" id="submit" value="YES! PLEASE">
-        </form>
-      <!-- </div> -->
-    
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <!--
+    <h1>The Basic Language of the Web: HTML</h1>
+    <h2>The Basic Language of the Web: HTML</h2>
+    <h3>The Basic Language of the Web: HTML</h3>
+    <h4>The Basic Language of the Web: HTML</h4>
+    <h5>The Basic Language of the Web: HTML</h5>
+    <h6>The Basic Language of the Web: HTML</h6>
+    -->
 
-    
-    <script  src="js/index.js"></script>
+    <header>
+      <h1>📘 The Code Magazine</h1>
+
+      <nav>
+        <a href="blog.html">Blog</a>
+        <a href="#">Challenges</a>
+        <a href="#">Flexbox</a>
+        <a href="#">CSS Grid</a>
+      </nav>
+    </header>
+
+    <article>
+      <header>
+        <h2>The Basic Language of the Web: HTML</h2>
+
+        <img
+          src="img/laura-jones.jpg"
+          alt="Headshot of Laura Jones"
+          height="50"
+          width="50"
+        />
+
+        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+
+        <img
+          src="img/post-img.jpg"
+          alt="HTML code on a screen"
+          width="500"
+          height="200"
+        />
+      </header>
+
+      <p>
+        All modern websites and web applications are built using three
+        <em>fundamental</em>
+        technologies: HTML, CSS and JavaScript. These are the languages of the
+        web.
+      </p>
+
+      <p>
+        In this post, let's focus on HTML. We will learn what HTML is all about,
+        and why you too should learn it.
+      </p>
+
+      <h3>What is HTML?</h3>
+      <p>
+        HTML stands for <strong>H</strong>yper<strong>T</strong>ext
+        <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup
+        language that web developers use to structure and describe the content
+        of a webpage (not a programming language).
+      </p>
+      <p>
+        HTML consists of elements that describe different types of content:
+        paragraphs, links, headings, images, video, etc. Web browsers understand
+        HTML and render HTML code as websites.
+      </p>
+      <p>In HTML, each element is made up of 3 parts:</p>
+
+      <ol>
+        <li>The opening tag</li>
+        <li>The closing tag</li>
+        <li>The actual element</li>
+      </ol>
+
+      <p>
+        You can learn more at
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+          target="_blank"
+          >MDN Web Docs</a
+        >.
+      </p>
+
+      <h3>Why should you learn HTML?</h3>
+
+      <p>
+        There are countless reasons for learning the fundamental language of the
+        web. Here are 5 of them:
+      </p>
+
+      <ul>
+        <li>To be able to use the fundamental web dev language</li>
+        <li>
+          To hand-craft beautiful websites instead of relying on tools like
+          Worpress or Wix
+        </li>
+        <li>To build web applications</li>
+        <li>To impress friends</li>
+        <li>To have fun 😃</li>
+      </ul>
+
+      <p>Hopefully you learned something new here. See you next time!</p>
+    </article>
+
+    <aside>
+      <h4>Related posts</h4>
+
+      <ul>
+        <li>
+          <img
+            src="img/related-1.jpg"
+            alt="Person programming"
+            width="75"
+            width="75"
+          />
+          <a href="#">How to Learn Web Development</a>
+          <p>By Jonas Schmedtmann</p>
+        </li>
+        <li>
+          <img src="img/related-2.jpg" alt="Lightning" width="75" heigth="75" />
+          <a href="#">The Unknown Powers of CSS</a>
+          <p>By Jim Dillon</p>
+        </li>
+        <li>
+          <img
+            src="img/related-3.jpg"
+            alt="JavaScript code on a screen"
+            width="75"
+            height="75"
+          />
+          <a href="#">Why JavaScript is Awesome</a>
+          <p>By Matilda</p>
+        </li>
+      </ul>
+    </aside>
+
+    <footer>
+      <p>Copyright &copy; 2027 by The Code Magazine.</p></footer>
   </body>
 </html>
