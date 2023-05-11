@@ -37,7 +37,14 @@ button {
 /* pseudo element */
 /* ::before and ::after are pseudo elements */
 
-nav a:link::last-letter {
+header h2::first-letter {
   font-size: 30px;
   color: red;
+  font-style: italic;
+}
+
+p::first-line {
+  font-size: 30px;
+  color: red;
+  font-style: italic;
 }
