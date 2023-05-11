@@ -15,3 +15,7 @@ a:visited {
   width: 780px;
   margin: 0 auto;
 }
+
+ol li {
+  display: inline; /* it will change this element to inline level element*/
+}
