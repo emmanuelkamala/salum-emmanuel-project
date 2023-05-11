@@ -23,3 +23,21 @@ ol li {
 nav a:link:last-child {
   margin-right: 0;
 } /* chaining the pseudo class */
+
+button {
+  font-size: 22px;
+  padding: 20px;
+  color: red;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* pseudo element */
+/* ::before and ::after are pseudo elements */
+
+nav a::first-letter {
+  font-size: 30px;
+  color: red;
+}
