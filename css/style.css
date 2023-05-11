@@ -1,8 +1,9 @@
 a:link {
   color: #1098ad;
-
+  background-color: #d8d7d7;
   margin: 20px;
   padding: 20px;
+  /* display: inline-block; */
   /* display: block; */ /* it will change this element to block level element*/
 }
 
