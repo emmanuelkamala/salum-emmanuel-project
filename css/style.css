@@ -1,5 +1,9 @@
 a:link {
   color: #1098ad;
+
+  margin: 20px;
+  padding: 20px;
+  /* display: block; */ /* it will change this element to block level element*/
 }
 
 a:visited {
