@@ -1,7 +1,8 @@
 .author-image {
-
+  border: 1px solid #ccc;
+  float: left;
 }
 
 .author {
-  
+  border: 1px solid #ccc;
 }
