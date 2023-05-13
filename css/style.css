@@ -28,7 +28,7 @@
 .el--2 {
   background-color: orangered;
   order: -2;
-  flex-grow: 4;
+  flex-grow: 1;
 }
 .el--3 {
   background-color: green;
