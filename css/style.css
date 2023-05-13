@@ -13,19 +13,22 @@
    /* flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto; */
-  flex-basis: 200px;
+  /* flex-basis: 200px; */
+  /* flex-grow: 1; */
 }
 
 .el--1 {
   background-color: blueviolet;
   order: 1;
   align-self: stretch;
-  /* flex-basis: 300px; */
+  flex-basis: 200px;
   flex-shrink: 0;
+
 }
 .el--2 {
   background-color: orangered;
   order: -2;
+  flex-grow: 4;
 }
 .el--3 {
   background-color: green;
@@ -35,6 +38,7 @@
 .el--4 {
   background-color: goldenrod;
   align-self: flex-start;
+  /* flex-grow: 2; */
 }
 .el--5 {
   background-color: palevioletred;
