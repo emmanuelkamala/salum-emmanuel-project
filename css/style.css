@@ -18,6 +18,7 @@
 .el--3 {
   background-color: green;
   height: 150px;
+  align-self: flex-end;
 }
 .el--4 {
   background-color: goldenrod;
@@ -42,6 +43,7 @@
   background-color: #ddd;
   font-size: 40px;
   margin: 40px;
-
+  display: flex;
+  align-items: center;
   /* FLEXBOX */
 }
