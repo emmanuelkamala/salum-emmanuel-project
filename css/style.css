@@ -9,6 +9,13 @@
   padding-left: 10px;
 }
 
+.el {
+   /* flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto; */
+  flex-basis: 200px;
+}
+
 .el--1 {
   background-color: blueviolet;
   order: 1;
@@ -19,9 +26,6 @@
 .el--2 {
   background-color: orangered;
   order: -2;
-  /* flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto; */
 }
 .el--3 {
   background-color: green;
