@@ -119,3 +119,23 @@
   float: left;
   width: 70%;
  }
+
+ aside {
+  background-color: #e8e8e8;
+  width: 30%;
+  float: right;
+  margin-top: 2rem;
+ }
+
+ aside ul {
+  list-style: none;
+ }
+
+ aside ul li {
+  border-bottom: 1px solid #ccc;
+  font-size: 1.5rem;
+ }
+
+ .related {
+  
+ }
