@@ -96,11 +96,12 @@
   justify-content: space-between;
   align-items: center;
   color: rgb(128, 212, 243);
+  background-color: #ebebeb;
  }
 
  .main-header nav a {
   color: rgb(128, 212, 243);
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: bold;
  }
