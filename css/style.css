@@ -86,3 +86,21 @@
     s - flex shrink
     
  */
+ .container {
+  margin: 0 auto;
+  width: 90%;
+ }
+
+ .main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(128, 212, 243);
+ }
+
+ .main-header nav a {
+  color: rgb(128, 212, 243);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+ }
