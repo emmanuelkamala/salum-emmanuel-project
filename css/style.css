@@ -105,3 +105,12 @@
   font-size: 1.2rem;
   font-weight: bold;
  }
+
+ .author-box {
+  display: flex;
+  align-items: center;
+ }
+
+ .author {
+  margin-left: 15px;
+ }
