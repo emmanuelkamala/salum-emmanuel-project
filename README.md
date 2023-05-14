@@ -85,4 +85,9 @@ inline-block elements can have width and height properties and margin top and bo
       4. align - item/ content
 
    ### grid item
-   
+     1. grid-column
+           start / end
+     2. grid-row
+             start / end
+     3. justify-self
+     4. align-self
