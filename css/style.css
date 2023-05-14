@@ -114,3 +114,8 @@
  .author {
   margin-left: 15px;
  }
+
+ article {
+  float: left;
+  width: 70%;
+ }
