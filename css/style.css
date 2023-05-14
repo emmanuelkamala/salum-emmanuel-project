@@ -1,141 +1,134 @@
-.author-image {
-  border: 1px solid #ccc;
-  float: left;
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.author {
-  border: 1px solid #ccc;
-  margin-left: 200px;
-  padding-left: 10px;
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+body {
+  font-family: sans-serif;
 }
 
-.el {
-   /* flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto; */
-  /* flex-basis: 200px; */
-  /* flex-grow: 1; */
+.container {
+  width: 960px;
+  margin: 0 auto;
 }
 
-.el--1 {
-  background-color: blueviolet;
-  order: 1;
-  align-self: stretch;
-  flex-basis: 200px;
-  flex-shrink: 0;
+header,
+section {
+  margin-bottom: 48px;
+}
 
+h2 {
+  margin-bottom: 48px;
 }
-.el--2 {
-  background-color: orangered;
-  order: -2;
-  flex-grow: 1;
+
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 80px;
 }
-.el--3 {
-  background-color: green;
-  height: 150px;
-  order: -1;
+
+/* ------------------------ */
+/* COMPONENT STYLES */
+/* ------------------------ */
+
+/* HEADER */
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 80px;
+  margin-top: 48px;
 }
-.el--4 {
-  background-color: goldenrod;
-  align-self: flex-start;
-  /* flex-grow: 2; */
-}
-.el--5 {
-  background-color: palevioletred;
+
+.header-text-box {
   align-self: center;
 }
-.el--6 {
-  background-color: steelblue;
-}
-.el--7 {
-  background-color: yellow;
-  align-self: stretch;
-}
-.el--8 {
-  background-color: crimson;
+
+h1 {
+  margin-bottom: 24px;
 }
 
+.header-text {
+  margin-bottom: 24px;
+}
 
-.flex {
-  /* STARTER */
-  font-family: sans-serif;
-  background-color: #ddd;
-  font-size: 40px;
-  margin: 40px;
+img {
+  width: 100%;
+}
+
+/* FEATURES */
+.features-icon {
+}
+
+.features-title {
+  margin-bottom: 16px;
+}
+
+.features-text {
+}
+
+/* TESTIMONIAL */
+.testimonial-section {
+}
+
+.testimonial-box {
+  grid-column: 2 / -1;
+  align-self: center;
+}
+
+.testimonial-box h2 {
+  margin-bottom: 24px;
+}
+
+.testimonial-text {
+  font-style: italic;
+  margin-bottom: 24px;
+}
+
+/* CHAIRS */
+.chair-box {
+  padding: 24px;
+}
+
+h3 {
+  margin-bottom: 24px;
+}
+
+.chair-details {
+  list-style: none;
+  margin-bottom: 24px;
+}
+
+.chair-details li {
   display: flex;
   align-items: center;
-  /* FLEXBOX */
+  gap: 12px;
+  margin-bottom: 24px;
 }
 
-/*
-   flex box properties
-   - it takes the width and height of the content when you don't specify the width and height
-   FLEX CONTAINER
-   f - flex direction
-   a - align items
-   j - justify content
-   a - align content
-   g -flex gap
-   f - flex wrap
+.chair-details li:last-child {
+  margin-bottom: 0;
+}
 
-    FLEX ITEM
-    b - flex basis
-    o - order
-    g - flex grow
-    a - align self
-    s - flex shrink
-    
- */
- .container {
-  margin: 0 auto;
-  width: 90%;
- }
+.chair-icon {
+}
 
- .main-header {
+.chair-price {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  color: rgb(128, 212, 243);
-  background-color: #ebebeb;
- }
+}
 
- .main-header nav a {
-  color: rgb(128, 212, 243);
-  text-decoration: none;
-  font-size: 1.2rem;
-  font-weight: bold;
- }
-
- .author-box {
-  display: flex;
-  align-items: center;
- }
-
- .author {
-  margin-left: 15px;
- }
-
- article {
- }
-
- aside {
-  background-color: #e8e8e8;
-  margin-top: 2rem;
- }
-
- aside ul {
-  list-style: none;
- }
-
- aside ul li {
-  border-bottom: 1px solid #ccc;
-  font-size: 1.5rem;
- }
-
- .related {
-
- }
-
- .article-aside {
-  display: flex;
- }
+footer {
+  margin-bottom: 48px;
+}
