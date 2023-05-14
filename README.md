@@ -4,7 +4,7 @@
   
 
   ## extra knowledge gained
-
+`a:link` pseudo class is used to style the unvisited links
 `a:visited` pseudo class is used to style the visited links
 `a:active` pseudo class is used to style the active links (when you click on it)
 
