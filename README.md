@@ -21,3 +21,23 @@ inline-block elements can have width and height properties and margin top and bo
 2. [css validator](https://jigsaw.w3.org/css-validator/)
 3. [html and css validator](https://validator.w3.org/nu/)
 4. diff checker
+
+/*
+   flex box properties
+   - it takes the width and height of the content when you don't specify the width and height
+   FLEX CONTAINER
+   f - flex direction
+   a - align items
+   j - justify content
+   a - align content
+   g -flex gap
+   f - flex wrap
+
+    FLEX ITEM
+    b - flex basis
+    o - order
+    g - flex grow
+    a - align self
+    s - flex shrink
+    
+ */
