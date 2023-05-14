@@ -41,3 +41,48 @@ inline-block elements can have width and height properties and margin top and bo
     s - flex shrink
     
  */
+
+ ## Grid properties
+
+   ### grid container
+   1. grid-template-columns
+   2. grid-template-rows
+   3. grid-template-areas
+   4. grid-template
+   5. grid-column-gap
+   6. grid-row-gap
+   7. grid-gap
+   8. justify-items
+   9. align-items
+   10. place-items
+   11. justify-content
+   12. align-content
+   13. place-content
+   14. grid-auto-columns
+   15. grid-auto-rows
+   16. grid-auto-flow
+   17. grid
+
+   ### grid item
+   1. grid-column-start
+   2. grid-column-end
+   3. grid-row-start
+   4. grid-row-end
+   5. grid-column
+   6. grid-row
+   7. grid-area
+   8. justify-self
+   9. align-self
+   10. place-self
+
+   ## Summary of grid properties
+   ### grid container
+      1. grid-template 
+           rows / columns
+      2. gap 
+             row-gap column-gap
+      3.  justify - item/ content
+      4. align - item/ content
+
+   ### grid item
+   
