@@ -65,6 +65,9 @@ h1 {
 
 .header-text {
   margin-bottom: 24px;
+  /* 18 / 20 / 24 */
+  font-size: 18px;
+  line-height: 1.6;
 }
 
 img {
