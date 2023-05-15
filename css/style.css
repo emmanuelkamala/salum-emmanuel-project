@@ -14,6 +14,7 @@ FONT SIZE SYSTEM (px)
 
  :root {
   --main-color: #087f5b;
+  --hover-color: #099268;
   --gray-color: #343a40;
  }
  
@@ -56,6 +57,23 @@ h2 {
 
 /* ------------------------ */
 /* COMPONENT STYLES */
+
+.btn:link,
+.btn:visited {
+  background-color: var(--main-color);
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 16px 32px;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: var(--hover-color);
+}
 /* ------------------------ */
 
 /* HEADER */
