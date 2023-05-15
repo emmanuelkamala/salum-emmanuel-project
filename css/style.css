@@ -33,6 +33,7 @@ h2 {
   margin-bottom: 48px;
   /* 24 / 30 / 36  */
   font-size: 36px;
+  letter-spacing: 0.5;
 }
 
 .grid-3-cols {
@@ -82,9 +83,12 @@ img {
 
 .features-title {
   margin-bottom: 16px;
+  font-size: 20px;
 }
 
 .features-text {
+  font-size: 18px;
+  line-height: 1.7;
 }
 
 /* TESTIMONIAL */
