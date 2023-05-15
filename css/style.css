@@ -70,7 +70,7 @@ h1 {
   margin-bottom: 24px;
   /* 18 / 20 / 24 */
   font-size: 18px;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 img {
@@ -102,11 +102,16 @@ img {
 
 .testimonial-box h2 {
   margin-bottom: 24px;
+  /* 20 / 24 / 30 */
+  font-size: 24px;
 }
 
 .testimonial-text {
   font-style: italic;
   margin-bottom: 24px;
+  /* 18 / 20 / 24 */
+  font-size: 18px;
+  line-height: 1.7;
 }
 
 /* CHAIRS */
