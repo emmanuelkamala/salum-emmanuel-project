@@ -74,6 +74,14 @@ h2 {
 .btn:active {
   background-color: var(--hover-color);
 }
+
+.btn--big {
+
+}
+
+.btn--small {
+  
+}
 /* ------------------------ */
 
 /* HEADER */
