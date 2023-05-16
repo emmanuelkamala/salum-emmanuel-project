@@ -196,3 +196,10 @@ footer {
   margin-bottom: 48px;
   font-size: 14px;
 }
+
+.features-icon {
+  stroke: var(--main-color);
+  width: 32px;
+  height: 32px;
+  margin-bottom: 16px;
+}
