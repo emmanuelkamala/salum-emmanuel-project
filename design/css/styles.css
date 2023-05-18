@@ -32,4 +32,7 @@ FONT SIZE SYSTEM (px)
     color: var(--gray-color);
     border-bottom: #087f5b 8px solid;
   }
-  
+  .accordion {
+    width: 700px;
+    margin: 100px auto;
+  }  
