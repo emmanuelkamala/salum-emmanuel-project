@@ -97,3 +97,17 @@ FONT SIZE SYSTEM (px)
     font-weight: 500;
     color: #c3fae8;
   }
+
+  .dots {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .dot {
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    background-color: white;
+    cursor: pointer;
+  }
