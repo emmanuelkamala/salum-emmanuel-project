@@ -40,16 +40,23 @@ FONT SIZE SYSTEM (px)
     border-radius: 8px;
     display: flex;
     align-items: center;
-    gap: 32px;
+    gap: 86px;
   }
-
+  .btn {
+    background-color: white;
+    border: none;
+    height: 40px;
+    width: 40px;
+  }
   .btn-icon {
   }
+
 
   img {
     height: 200px;
     border-radius: 8px;
     transform: scale(1.5);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
   }
 
   .testimonial-text {
