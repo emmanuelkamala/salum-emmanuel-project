@@ -38,6 +38,11 @@ FONT SIZE SYSTEM (px)
 .accordion{}
 .item {
   box-shadow: 0px 0px 30px  rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 24px;
+  row-gap: 32px;
 }
 .icon {
   width: 24px;
@@ -48,6 +53,10 @@ FONT SIZE SYSTEM (px)
   font-size: 24px;
   font-weight: 600;
   color: var(--main-color);
+}
+
+.hidden-box {
+  grid-column: 2;
 }
 .hidden-box p {
   font-weight: 400;
