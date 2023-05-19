@@ -50,3 +50,24 @@ FONT SIZE SYSTEM (px)
     border-radius: 8px;
     transform: scale(1.6);
   }
+
+  .testimonial-text {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+    margin-bottom: 32px;
+    color: #06fcf5;
+  }
+
+  .testimonial-author {
+    font-size: 14px;
+    font-weight: 500;
+    color: #c3fae8;
+    margin-bottom: 4px;
+  }
+
+  .testimonial-job {
+    font-size: 12px;
+    font-weight: 500;
+    color: #c3fae8;
+  }
