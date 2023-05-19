@@ -37,7 +37,7 @@ FONT SIZE SYSTEM (px)
 
 .accordion{}
 .item {
-  box-shadow: 2px 11px 20px  rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 30px  rgba(0, 0, 0, 0.1);
 }
 .icon {
   width: 24px;
