@@ -65,6 +65,7 @@ FONT SIZE SYSTEM (px)
 
 .hidden-box {
   grid-column: 2;
+  display: none;
 }
 .hidden-box p {
   font-weight: 400;
@@ -78,4 +79,12 @@ FONT SIZE SYSTEM (px)
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+
+.open {
+  border-top: 4px solid var(--main-color);
+}
+
+.open .hidden-box {
+  display: block;
 }
