@@ -47,8 +47,12 @@ FONT SIZE SYSTEM (px)
 .number {
   font-size: 24px;
   font-weight: 600;
+  color: var(--main-color);
 }
-/* text */
+.text {
+  color: var(--main-color);
+  font-size: 24px;
+}
 .hidden-box p {
   font-weight: 400;
   margin-bottom: 24px;
