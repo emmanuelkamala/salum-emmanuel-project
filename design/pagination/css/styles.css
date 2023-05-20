@@ -34,8 +34,7 @@ FONT SIZE SYSTEM (px)
   }
   
   .pagination {
-    display: flex;
-    align-items: center;
+    display: grid;
     border: 1px solid var(--main-color);
     margin-top: 100px;
   }
@@ -49,4 +48,15 @@ FONT SIZE SYSTEM (px)
     border-radius: 50%;
     padding: 1.2rem;
     border: none;
+    cursor: pointer;
+  }
+
+  .page:hover {
+    background-color: var(--hover-color);
+    color: white;
+  }
+
+  .btn {
+    height: 40px;
+    width: 40px;
   }
