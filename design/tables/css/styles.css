@@ -14,7 +14,7 @@ FONT SIZE SYSTEM (px)
 
  :root {
     --main-color: #087f5b;
-    --hover-color: #099268;
+    --hover-color: #38d9a9;
     --gray-color: #868e96;
    }
    
@@ -35,15 +35,26 @@ FONT SIZE SYSTEM (px)
   
   table {
     margin-top: 4rem;
-    /* border-collapse: collapse; */
+    border-collapse: collapse;
+    width: 800px;
   }
  
   thead th {
     background-color: var(--main-color);
     color: white;
+    width: 25%;
   }
 
   th, td {
     padding: 0.4rem 1rem;
     text-align: left;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  tbody tr:hover {
+    background-color: var(--hover-color);
+    color: white;
   }
