@@ -99,11 +99,15 @@ FONT SIZE SYSTEM (px)
   }
 
   .dots {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50px);
     display: flex;
-    width: 100%;
-    justify-content: center;
+    gap: 8px;
   }
 
+ 
   .dot {
     border-radius: 50%;
     height: 12px;
@@ -111,4 +115,7 @@ FONT SIZE SYSTEM (px)
     background-color: white;
     border: 2px solid var(--main-color);
     cursor: pointer;
+  }
+  .dot--fill {
+    background-color: var(--main-color);
   }
