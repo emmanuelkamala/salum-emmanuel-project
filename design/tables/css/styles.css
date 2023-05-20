@@ -29,6 +29,16 @@ FONT SIZE SYSTEM (px)
   /* ------------------------ */
   body {
     font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
   }
   
+  table {
+    margin-top: 4rem;
+    border-collapse: collapse;
+  }
  
+  th, td {
+    border: 1px solid var(--gray-color);
+    padding: 1rem;
+  }
