@@ -58,7 +58,7 @@ FONT SIZE SYSTEM (px)
   }
 
   .page:hover {
-    background-color: var(--hover-color);
+    background-color: var(--main-color);
     color: white;
   }
 
@@ -71,7 +71,7 @@ FONT SIZE SYSTEM (px)
   }
 
   .btn:hover {
-    background-color: var(--hover-color);
+    background-color: var(--main-color);
     color: white;
   }
 
