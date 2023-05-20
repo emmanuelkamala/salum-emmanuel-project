@@ -35,10 +35,15 @@ FONT SIZE SYSTEM (px)
   
   table {
     margin-top: 4rem;
-    border-collapse: collapse;
+    /* border-collapse: collapse; */
   }
  
+  thead th {
+    background-color: var(--main-color);
+    color: white;
+  }
+
   th, td {
-    border: 1px solid var(--gray-color);
     padding: 0.4rem 1rem;
+    text-align: left;
   }
