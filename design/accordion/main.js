@@ -1,8 +1,9 @@
-const element = document.querySelector('.item');
+const element = document.querySelectorAll('.item');
 const button = document.querySelector('.icon');
 
-button.addEventListener('click', (e) => {
-    console.log(e.target);
-    element.classList.toggle('open');
+element.forEach((item) => {
+    item.addEventListener('click', () => {
+        item.classList.toggle('open');
+    });
     }
 );
