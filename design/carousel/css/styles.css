@@ -109,5 +109,6 @@ FONT SIZE SYSTEM (px)
     height: 12px;
     width: 12px;
     background-color: white;
+    border: 2px solid var(--main-color);
     cursor: pointer;
   }
