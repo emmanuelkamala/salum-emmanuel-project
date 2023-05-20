@@ -35,20 +35,26 @@ FONT SIZE SYSTEM (px)
   
   .pagination {
     display: grid;
-    border: 1px solid var(--main-color);
+    grid-template-columns: auto auto auto;
+    grid-gap: 1rem;
     margin-top: 100px;
   }
 
   .pages {
     width: 700px;
-    border: 1px solid var(--gray-color);
   }
 
   .page {
     border-radius: 50%;
     padding: 1.2rem;
+    background-color: white;
     border: none;
     cursor: pointer;
+  }
+
+  .page--active {
+    background-color: var(--main-color);
+    color: white;
   }
 
   .page:hover {
@@ -57,6 +63,24 @@ FONT SIZE SYSTEM (px)
   }
 
   .btn {
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: var(--hover-color);
+    color: white;
+  }
+
+  .btn--left {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .btn-icon {
+    width: 0.9rem;
+    height: 0.9rem;
   }
