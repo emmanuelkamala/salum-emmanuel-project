@@ -41,7 +41,7 @@ FONT SIZE SYSTEM (px)
   }
 
   .pages {
-    width: 700px;
+    width: 500px;
   }
 
   .page {
@@ -65,7 +65,7 @@ FONT SIZE SYSTEM (px)
   .btn {
     height: 60px;
     width: 60px;
-    border: none;
+    border: 1px solid var(--main-color);
     border-radius: 50%;
     cursor: pointer;
   }
@@ -81,6 +81,6 @@ FONT SIZE SYSTEM (px)
   }
 
   .btn-icon {
-    width: 0.9rem;
-    height: 0.9rem;
+    width: 1.2rem;
+    height: 1.2rem;
   }
