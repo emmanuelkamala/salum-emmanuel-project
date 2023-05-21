@@ -79,9 +79,10 @@ FONT SIZE SYSTEM (px)
   header {
     height: 100vh;
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.871), rgba(19, 19, 19, 0.271)), url('../images/hero.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.971), rgba(19, 19, 19, 0.271)), url('../images/hero.jpg');
     background-size: cover;
     color: white;
+    padding-top: 32px;
   }
 
   .header-container {
