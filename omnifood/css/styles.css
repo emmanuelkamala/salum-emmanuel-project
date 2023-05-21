@@ -73,9 +73,18 @@ FONT SIZE SYSTEM (px)
   .container {
     margin: 0 auto;
     max-width: 1200px;
+    background-color: #087f5b;
   }
 
   header {
     background-color: orange;
     height: 100vh;
+  }
+
+  .header-container {
+    width: 1200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: bisque;
   }
