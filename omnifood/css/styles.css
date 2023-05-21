@@ -29,65 +29,6 @@ FONT SIZE SYSTEM (px)
   /* ------------------------ */
   body {
     font-family: 'Inter', sans-serif;
-    display: flex;
-    justify-content: center;
+    
   }
   
-  .pagination {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 1rem;
-    margin-top: 100px;
-  }
-
-  .pages {
-    width: 500px;
-  }
-
-  .page {
-    border-radius: 50%;
-    padding: 1.2rem;
-    background: none;
-    text-decoration: none;
-    border: none;
-    cursor: pointer;
-  }
-
-  .page--active {
-    background-color: var(--main-color);
-    color: white;
-  }
-
-  .page:hover {
-    background-color: var(--main-color);
-    color: white;
-  }
-
-  .btn {
-    height: 60px;
-    width: 60px;
-    border: 1px solid var(--main-color);
-    border-radius: 50%;
-    cursor: pointer;
-    background: none;
-  }
-
-  .btn:hover {
-    background-color: var(--main-color);
-    color: white;
-  }
-
-  .btn--left {
-    grid-column: 1;
-    grid-row: 1;
-  }
-
-  .btn-icon {
-    width: 1.2rem;
-    height: 1.2rem;
-    stroke: var(--main-color);
-  }
-
-  .btn:hover .btn-icon {
-    stroke: white;
-  }
