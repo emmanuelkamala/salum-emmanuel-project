@@ -43,12 +43,14 @@ FONT SIZE SYSTEM (px)
     font-size: 52px;
     margin-bottom: 32px;
     line-height: 1.2;
+    color: #fff;
   }
 
   p {
     font-size: 20px;
     line-height: 1.6;
     margin-bottom: 48px;
+    color: #fff;
   }
 
   .btn:link,
@@ -79,6 +81,7 @@ FONT SIZE SYSTEM (px)
   header {
     height: 100vh;
     position: relative;
+    background-image: url('../images/hero.jpg');
   }
 
   .header-container {
