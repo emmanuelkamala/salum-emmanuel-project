@@ -47,7 +47,8 @@ FONT SIZE SYSTEM (px)
   .page {
     border-radius: 50%;
     padding: 1.2rem;
-    background-color: white;
+    background: none;
+    text-decoration: none;
     border: none;
     cursor: pointer;
   }
@@ -68,6 +69,7 @@ FONT SIZE SYSTEM (px)
     border: 1px solid var(--main-color);
     border-radius: 50%;
     cursor: pointer;
+    background: none;
   }
 
   .btn:hover {
@@ -83,4 +85,9 @@ FONT SIZE SYSTEM (px)
   .btn-icon {
     width: 1.2rem;
     height: 1.2rem;
+    stroke: var(--main-color);
+  }
+
+  .btn:hover .btn-icon {
+    stroke: white;
   }
