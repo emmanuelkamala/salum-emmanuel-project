@@ -86,5 +86,6 @@ html {
 
 .btn--outline:hover, 
 .btn--outline:active { 
-    background-color: var(--hover-light)
+    background-color: var(--hover-light);
+    border: 3px solid white;
 }
