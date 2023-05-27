@@ -17,4 +17,17 @@ html {
     10px / 16px = 0.625 = 62.5%
     Percentage of user's browser font size setting
     */
+    font-size: 62.5%;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 130rem;
+    background-color: #e67e22;
+    margin: 0 auto;
+}
+
+.hero-img {
+    width: 100%;
 }
