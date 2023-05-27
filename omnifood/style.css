@@ -6,6 +6,7 @@
 
 :root {
     --brand-color: #e67e22;
+    --bg-color: #fae5d3;
     --gray-color: #555;
     --second-gray: #333;
 }
@@ -22,12 +23,16 @@ html {
     font-size: 62.5%;
 }
 
+.hero-section {
+    background-color: var(--bg-color); 
+}
+
 .hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 130rem;
-    margin: 0 auto;
     align-items: center;
+    margin: 0 auto;
 }
 
 .hero-img {
