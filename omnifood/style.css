@@ -59,10 +59,20 @@ html {
 .btn:link, 
 .btn:visited {
     display: inline-block;
-    background-color: var(--brand-color);
-    color: white;
     font-size: 2rem;
     text-decoration: none;
     padding: 1.6rem 3.2rem;
     border-radius: 6rem;
+}
+
+.btn--full:visited, 
+.btn--full:link {  
+    background-color: var(--brand-color);
+    color: white;
+}
+
+.btn--outline:visited, 
+.btn--outline:link { 
+    background-color: white;
+    color: #000;
 }
