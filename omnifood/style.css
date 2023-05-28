@@ -65,6 +65,7 @@ html {
     text-decoration: none;
     padding: 1.6rem 3.2rem;
     border-radius: 6rem;
+    transition: all 0.3s;
 }
 
 .btn--full:visited, 
@@ -87,5 +88,6 @@ html {
 .btn--outline:hover, 
 .btn--outline:active { 
     background-color: var(--hover-light);
-    border: 3px solid white;
+    /* border: 3px solid white; */
+    box-shadow: inset 0 0 0 3px white;
 }
