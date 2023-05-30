@@ -96,3 +96,11 @@ html {
 .mr-sm {
     margin-right: 1.6rem !important;
 }
+
+.delivered-meals {
+    display: flex;
+}
+
+.delivered-imgs {
+    display: flex;
+}
