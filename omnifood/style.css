@@ -126,4 +126,6 @@ html {
 
 .delivered-text {
     margin-left: 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 600;
 }
