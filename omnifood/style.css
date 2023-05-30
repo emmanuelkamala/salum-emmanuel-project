@@ -112,6 +112,7 @@ html {
 .delivered-meals {
     display: flex;
     /* align-items: center; */
+    margin-top: 8rem;
 }
 
 .delivered-imgs {
