@@ -99,6 +99,7 @@ html {
 
 .delivered-meals {
     display: flex;
+    /* align-items: center; */
 }
 
 .delivered-imgs {
