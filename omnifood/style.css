@@ -123,3 +123,7 @@ html {
     width: 6.4rem;
     border-radius: 50%;
 }
+
+.delivered-text {
+    margin-left: 1.6rem;
+}
