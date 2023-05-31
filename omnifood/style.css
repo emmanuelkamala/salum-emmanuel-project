@@ -138,5 +138,5 @@ html {
 }
 
 .delivered-text span {
-    color: var(--brand-color);
+    color: var(--brand-darker);
 }
