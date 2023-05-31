@@ -205,8 +205,10 @@ html {
     background-color: lightblue;
     height: 8rem;
 }
-/* 
-.section-how:nth-child(1) {
-    background-color: pink;
-} */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 9.6rem;
+}
 
