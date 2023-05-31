@@ -59,6 +59,10 @@ html {
     gap: 3.2rem;
 }
 
+.main-nav-link {
+    text-decoration: none;
+}
+
 .section-hero {
     background-color: var(--bg-color); 
     padding: 4.8rem 0 9.6rem 0;
