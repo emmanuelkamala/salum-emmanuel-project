@@ -190,3 +190,23 @@ html {
 .delivered-text span {
     color: var(--brand-darker);
 }
+
+.section-how {
+    padding: 9.6rem 0;
+    background-color: orangered;
+}
+
+.section-how div:nth-child(odd) {
+    background-color: pink;
+    height: 8rem;
+}
+
+.section-how div:nth-child(even) {
+    background-color: lightblue;
+    height: 8rem;
+}
+/* 
+.section-how:nth-child(1) {
+    background-color: pink;
+} */
+
