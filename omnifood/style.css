@@ -196,12 +196,12 @@ html {
     background-color: orangered;
 }
 
-.section-how div:nth-child(odd) {
+.section-how .container div:nth-child(odd) {
     background-color: pink;
     height: 8rem;
 }
 
-.section-how div:nth-child(even) {
+.section-how .container div:nth-child(even) {
     background-color: lightblue;
     height: 8rem;
 }
