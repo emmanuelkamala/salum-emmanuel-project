@@ -250,3 +250,10 @@ html {
     font-size: 1.8rem;
     line-height: 1.8;
 }
+
+.step-img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
