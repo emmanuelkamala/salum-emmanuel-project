@@ -208,3 +208,7 @@ html {
     margin: 0 auto;
     padding: 0 3.2rem;
 }
+
+.step-img {
+    width: 50%;
+}
