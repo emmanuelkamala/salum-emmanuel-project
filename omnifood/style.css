@@ -125,6 +125,9 @@ html {
 
 .subheading {
     display: block;
+    color: var(--brand-color);
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 .hero-description {
