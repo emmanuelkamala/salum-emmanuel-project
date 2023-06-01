@@ -196,22 +196,14 @@ html {
     background-color: orangered;
 }
 
-.section-how .container div:nth-child(odd) {
-    background-color: pink;
-    height: 8rem;
-}
-
-.section-how .container div:nth-child(even) {
-    background-color: lightblue;
-    height: 8rem;
-}
-
 .grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     gap: 9.6rem;
 }
 
+.g-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
 .container {
     max-width: 120rem;
     margin: 0 auto;
