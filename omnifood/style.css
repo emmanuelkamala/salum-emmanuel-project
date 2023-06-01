@@ -217,7 +217,8 @@ html {
 
 .grid {
     display: grid;
-    gap: 9.6rem;
+    row-gap: 9.6rem;
+    column-gap: 6.4rem;
 }
 
 .g-2-cols {
@@ -230,7 +231,7 @@ html {
 }
 
 .step-img {
-    width: 30%;
+    width: 35%;
 }
 
 .step-number {
