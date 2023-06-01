@@ -281,7 +281,7 @@ html {
     width: 50%;
     padding-top: 50%;
     border-radius: 50%;
-    background-color: white;
+    background-color: var(--brand-color);
     position: absolute;
     z-index: -1;
 }
