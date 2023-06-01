@@ -230,7 +230,7 @@ html {
 }
 
 .step-img {
-    width: 50%;
+    width: 30%;
 }
 
 .step-number {
@@ -241,7 +241,12 @@ html {
 }
 
 .heading-tertiary {
-    font-size: 3.6rem;
+    font-size: 3rem;
     line-height: 1.2;
     margin-bottom: 3.2rem;
+}
+
+.step-description {
+    font-size: 1.8rem;
+    line-height: 1.8;
 }
