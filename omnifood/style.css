@@ -362,7 +362,10 @@ strong {
 
 .meal-tags {
     margin-bottom: 1.2rem;
+    display: flex;
+    gap: 0.6rem;
 }
+
 .tag {
     display: inline-block;
     padding: 0.4rem 0.8rem;
@@ -371,4 +374,13 @@ strong {
     background-color: #51cf66;
     color: #333;
     border-radius: 10px;
+    font-weight: 600;
+}
+
+.tag--paleo {
+    background-color: #f9d423;
+}
+
+.tag--vegan {
+    background-color: #00d2ff;
 }
