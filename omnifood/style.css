@@ -310,3 +310,11 @@ html {
     filter: brightness(0);
     opacity: 0.5;
 }
+
+.section-meals {
+    padding: 9.6rem 0;
+}
+
+.meal-img {
+    width: 100%;
+}
