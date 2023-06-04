@@ -336,3 +336,9 @@ html {
 .meal-attribute {
     font-size: 1.8rem;
 }
+
+.meal-icon {
+    width: 2.4rem;
+    height: 2.4rem;
+    color: var(--brand-color);
+}
