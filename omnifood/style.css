@@ -384,3 +384,20 @@ strong {
 .tag--vegan {
     background-color: #00d2ff;
 }
+
+.list {
+    list-style: none;
+}
+
+.list-item {
+    font-size: 1.8rem;
+    margin-bottom: 1.6rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.list-icon {
+    font-size: 2.4rem;
+    color: var(--brand-color);
+}
