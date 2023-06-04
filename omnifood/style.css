@@ -37,6 +37,9 @@ html {
     font-size: 62.5%;
 }
 
+strong {
+    font-weight: 500;
+}
 .header {
     display: flex;
     justify-content: space-between;
@@ -228,6 +231,11 @@ html {
 .g-2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
+
+.g-3-cols {
+    grid-template-columns: repeat(3, 1fr);
+}
+
 .container {
     max-width: 120rem;
     margin: 0 auto;
@@ -343,4 +351,14 @@ html {
 .meal-icon {
     font-size: 2.4rem;
     color: var(--brand-color);
+}
+
+.tag {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    background-color: #51cf66;
+    color: #333;
+    border-radius: 10px;
 }
