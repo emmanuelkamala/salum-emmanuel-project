@@ -527,10 +527,15 @@ strong {
 .pricing-plan--complete {
     background-color: var(--bg-color);
     padding: 3.2rem;
+    position: relative;
 }
 
 .pricing-plan--complete::after {
     content: "Best Value";
+    position: absolute;
+    top: 1.6rem;
+    right: 0;
+
 }
 
 .plan-name {
