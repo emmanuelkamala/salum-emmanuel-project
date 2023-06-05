@@ -529,6 +529,10 @@ strong {
     padding: 3.2rem;
 }
 
+.pricing-plan--complete::after {
+    content: "Best Value";
+}
+
 .plan-name {
     font-size: 2rem;
     font-weight: 600;
