@@ -520,6 +520,11 @@ strong {
     width: 75%;
 }
 
+.pricing-plan--starter {
+    background-color: #f9d423;
+    color: #333;
+}
+
 .plan-name {
     font-size: 2rem;
     font-weight: 600;
