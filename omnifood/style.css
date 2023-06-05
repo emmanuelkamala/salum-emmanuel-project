@@ -451,6 +451,7 @@ strong {
     background-color: var(--bg-color);
     display: grid;
     grid-template-columns: 60fr 40fr;
+    align-items: center;
 }
 
 .testimonials-container {
@@ -483,7 +484,7 @@ strong {
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 1.6rem;
+    gap: 1.6rem;
     padding: 1.6rem;
 }
 
