@@ -449,6 +449,8 @@ strong {
 
 .section-testimonials {
     background-color: var(--bg-color);
+    /* display: grid;
+    grid-template-columns: 60fr 40fr; */
 }
 
 .testimonials-container {
@@ -481,7 +483,7 @@ strong {
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.6rem;
+    column-gap: 1.6rem;
     padding: 1.6rem;
 }
 
