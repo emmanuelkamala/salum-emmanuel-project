@@ -449,8 +449,8 @@ strong {
 
 .section-testimonials {
     background-color: var(--bg-color);
-    /* display: grid;
-    grid-template-columns: 60fr 40fr; */
+    display: grid;
+    grid-template-columns: 60fr 40fr;
 }
 
 .testimonials-container {
