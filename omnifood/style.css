@@ -514,7 +514,6 @@ strong {
 }
 
 .pricing-plan {
-    background-color: var(--bg-color);
     border-radius: 0.11rem;
     padding: 3.2rem;
     width: 75%;
@@ -522,6 +521,10 @@ strong {
 
 .pricing-plan--starter {
     justify-self: end;
+}
+
+.pricing-plan--complete {
+    background-color: var(--bg-color);
 }
 
 .plan-name {
