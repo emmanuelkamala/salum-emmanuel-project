@@ -521,6 +521,7 @@ strong {
 
 .pricing-plan--starter {
     justify-self: end;
+    border: 2px solid #fdf2e9;
 }
 
 .pricing-plan--complete {
