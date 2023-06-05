@@ -514,7 +514,7 @@ strong {
 }
 
 .plan-name {
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 600;
     color: var(--brand-color);
     text-transform: uppercase;
@@ -526,6 +526,14 @@ strong {
     font-size: 6.2rem;
     font-weight: 600;
     color: #333;
+    margin-bottom: 1.6rem;
+}
+
+.plan-price span {
+    font-size: 3.2rem;
+    font-weight: 500;
+    color: #6f6f6f;
+    margin-left: 0.8rem;
 }
 
 .plan-text {
