@@ -422,9 +422,11 @@ strong {
     transition: all 0.2s;
     border-bottom: 1px solid currentColor;
     padding: 0.4rem;
+    transition: all 0.3s;
 }
 
 .link:hover,
 .link:active {
     color: var(--brand-darker);
+    border-bottom: 1px solid transparent;
 }
