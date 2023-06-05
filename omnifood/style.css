@@ -521,8 +521,7 @@ strong {
 }
 
 .pricing-plan--starter {
-    background-color: #f9d423;
-    color: #333;
+    justify-self: end;
 }
 
 .plan-name {
