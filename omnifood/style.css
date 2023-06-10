@@ -699,3 +699,16 @@ strong {
     /* transform: translateY(-3px); */
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
 }
+
+.cta-form select {
+    font-size: 1.6rem;
+    padding: 1.6rem 2.4rem;
+    border-radius: 0.11rem;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #45260a;
+    width: 100%;
+}
+
+/* **************************************************************************** */
+/* ********************************* FOOTER  ************************************ */
