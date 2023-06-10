@@ -637,7 +637,6 @@ strong {
     grid-template-columns: 2fr 1fr;
     background-image: linear-gradient(to right bottom, #eb984e, var(--brand-darker));
     border-radius: 11px;
-    height: 50rem;
     box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.175);
     overflow: hidden;
 }
