@@ -153,6 +153,8 @@ strong {
     padding: 1.6rem 3.2rem;
     border-radius: 1.4rem;
     transition: all 0.3s;
+    cursor: pointer;
+    border: none;
 }
 
 .btn--full:visited, 
