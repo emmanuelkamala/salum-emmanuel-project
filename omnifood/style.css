@@ -696,14 +696,13 @@ strong {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-
 .cta-form input::placeholder {
     color: #aaa;
 }
 
 .cta-form *:focus {
     outline: none;
-    box-shadow: 0 0 0 0.8rem rgba(0, 1, 3, 0.571);
+    box-shadow: 0 0 0 0.4rem rgba(253, 241, 232, 0.567);
 }
 /* **************************************************************************** */
 /* ********************************* FOOTER  ************************************ */
