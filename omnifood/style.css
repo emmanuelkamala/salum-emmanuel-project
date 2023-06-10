@@ -662,10 +662,9 @@ strong {
 
 .cta-form label {
     font-size: 1.6rem;
-    font-weight: 700;
-    color: #45260a;
+    font-weight: 500;
     display: block;
-    margin-bottom: 0.8rem;
+    margin-bottom: 1.2rem;
 }
 
 .cta-form input {
