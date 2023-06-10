@@ -189,6 +189,12 @@ strong {
     padding: 1.2rem;
 }
 
+.btn--form:hover,
+.btn--form:active {
+    background: #fff;
+    color: #45260a;
+}
+
 .mr-sm {
     margin-right: 1.6rem !important;
 }
@@ -694,7 +700,6 @@ strong {
     outline: none;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
-
 
 .cta-form input::placeholder {
     color: #aaa;
