@@ -183,17 +183,10 @@ strong {
 }
 
 .btn--form {
-    background-color: var(--brand-color);
-    color: white;
-    padding: 1.6rem 3.2rem;
-    border-radius: 1.4rem;
-    transition: all 0.3s;
-    cursor: pointer;
-    border: none;
-    font-family: inherit;
-    font-size: 1.6rem;
-    font-weight: 600;
-    text-decoration: none;
+    background: #45260a;
+    color: #fdf2e9;
+    align-self: end;
+    padding: 1.2rem;
 }
 
 .mr-sm {
