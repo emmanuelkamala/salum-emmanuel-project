@@ -17,3 +17,8 @@ instead 1rem = 1em = 16px
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+/* below 1200px (tablet) */
+@media(max-width: 64em) {
+    
+}
