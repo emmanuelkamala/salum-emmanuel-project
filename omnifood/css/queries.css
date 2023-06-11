@@ -20,5 +20,8 @@ instead 1rem = 1em = 16px
 
 /* below 1200px (tablet landscape) */
 @media(max-width: 75em) {
-    
+    html {
+        /* 9px/16px = 56.25% */
+        font-size: 56.25%;
+    }
 }
