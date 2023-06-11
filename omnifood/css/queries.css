@@ -4,3 +4,8 @@ instead 1rem = 1em = 16px
 
  below 1344px (smaller computer screen)
 */
+@media(max-width: 84rem) {
+    .hero {
+        max-width: 120rem;
+    }
+}
