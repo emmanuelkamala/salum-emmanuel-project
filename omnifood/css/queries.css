@@ -18,7 +18,7 @@ instead 1rem = 1em = 16px
     }
 }
 
-/* below 1200px (tablet) */
-@media(max-width: 64em) {
+/* below 1200px (tablet landscape) */
+@media(max-width: 75em) {
     
 }
