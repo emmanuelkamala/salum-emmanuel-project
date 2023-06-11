@@ -262,7 +262,7 @@ strong {
 }
 
 .g-5-cols {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: 1.5fr 1.5fr repeat(3, 1fr);
 }
 
 .container {
@@ -772,4 +772,9 @@ strong {
     font-style: normal;
     font-size: 1.6rem;
     line-height: 1.6;
+}
+
+.address {
+    margin-bottom: 1.6rem;
+
 }
