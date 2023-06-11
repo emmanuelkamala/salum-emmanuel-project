@@ -720,6 +720,11 @@ strong {
     margin-bottom: 4.8rem;
 }
 
+.footer-logo {
+    display: block;
+    margin-bottom: 3.2rem;
+}
+
 .footer-nav {
     list-style: none;
     display: flex;
@@ -741,5 +746,7 @@ strong {
 }
 
 .social-links {
-    
+    display: flex;
+    gap: 2.4rem;
+    list-style: none;
 }
