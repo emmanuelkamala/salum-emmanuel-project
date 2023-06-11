@@ -719,11 +719,5 @@ strong {
 
 .footer-links:link,
 .footer-links:visited {
-    display: block;
-    color: #333;
-    font-size: 1.6rem;
-    font-weight: 500;
-    text-decoration: none;
-    transition: all 0.2s;
-    margin-bottom: 1.6rem;
+    
 }

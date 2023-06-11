@@ -7,4 +7,6 @@ Important point gained from this project:
     tintandshade.com
     cssgradient.io
     css-tricks.com
-    
+
+4. Remember when styling a link class make sure you add pseudo class link or visited
+      item:link, item:visited
