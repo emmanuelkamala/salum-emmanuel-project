@@ -4,8 +4,12 @@ instead 1rem = 1em = 16px
 
  below 1344px (smaller computer screen)
 */
-@media(max-width: 84rem) {
+@media(max-width: 84em) {
     .hero {
         max-width: 120rem;
+    }
+
+    .heading-primary {
+        font-size: 3.5rem;
     }
 }
