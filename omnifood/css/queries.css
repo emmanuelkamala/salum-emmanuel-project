@@ -99,4 +99,8 @@ instead 1rem = 1em = 16px
     .gallery{
         grid-template-columns: repeat(6, 1fr);
     }
+
+    .cta {
+        grid-template-columns: 3fr 2fr;
+    }
 }
