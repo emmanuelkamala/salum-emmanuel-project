@@ -53,3 +53,8 @@ instead 1rem = 1em = 16px
         padding: 9.6rem 3.2rem;
     }
 }
+
+/* below 944px (tablet portrait) */
+@media (max-width: 59em) {
+    
+}
