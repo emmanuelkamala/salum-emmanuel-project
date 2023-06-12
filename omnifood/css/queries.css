@@ -116,4 +116,12 @@ instead 1rem = 1em = 16px
     .btn-mobile-nav {
         display: block;
     }
+
+    .main-nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        /* background-color: aliceblue; */
+    }
 }
