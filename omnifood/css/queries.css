@@ -60,4 +60,12 @@ instead 1rem = 1em = 16px
     html {
         font-size: 50%;
     }
+
+    .hero {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-img {
+        width: 60%;
+    }
 }
