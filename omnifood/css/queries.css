@@ -122,6 +122,9 @@ instead 1rem = 1em = 16px
         top: 0;
         left: 0;
         height: 100vh;
-        /* background-color: aliceblue; */
+        background-color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
