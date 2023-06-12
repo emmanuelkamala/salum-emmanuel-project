@@ -73,4 +73,8 @@ instead 1rem = 1em = 16px
     .hero-img {
         width: 60%;
     }
+
+    .delivered-meals {
+        justify-content: center;
+    }
 }
