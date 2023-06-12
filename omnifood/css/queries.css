@@ -63,6 +63,8 @@ instead 1rem = 1em = 16px
 
     .hero {
         grid-template-columns: 1fr;
+        padding: 0 3.2rem;
+        gap: 6.4rem;
     }
 
     .hero-text-box, 
@@ -76,5 +78,13 @@ instead 1rem = 1em = 16px
 
     .delivered-meals {
         justify-content: center;
+    }
+
+    .logos img {
+        height: 2.4rem;
+    }
+
+    .step-number {
+        font-size: 2.4rem;
     }
 }
