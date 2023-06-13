@@ -149,8 +149,12 @@ instead 1rem = 1em = 16px
         visibility: visible;
     }
 
-    .icon-mobile-nav[name="close-outline"] {
+   .nav-open .icon-mobile-nav[name="close-outline"] {
         display: block;
+   }
+
+   .nav-open .icon-mobile-nav[name="menu-outline"] {
+        display: none;
    }
 
     .main-nav-list {
