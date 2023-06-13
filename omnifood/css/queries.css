@@ -171,4 +171,10 @@ instead 1rem = 1em = 16px
     }
 }
 
-/* for smaller tablets (below 704px) */
+/* for phones (below 544px) */
+
+@media (max-width: 34em) {
+    .grid {
+        row-gap: 4.8rem;
+    }
+}
