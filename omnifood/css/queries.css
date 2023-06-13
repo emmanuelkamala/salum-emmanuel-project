@@ -138,6 +138,9 @@ instead 1rem = 1em = 16px
 
         /* 2. Make it unaccessible to mouce and keyboard */
         pointer-events: none;
+
+        /* 3. Hide it from screen readers */
+        visibility: hidden;
     }
 
     .nav-open .main-nav {
