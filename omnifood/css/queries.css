@@ -129,7 +129,7 @@ instead 1rem = 1em = 16px
         align-items: center;
         transition: all 0.3s;
 
-        /* the problem of display: none */
+        /* Don't use display: none because of the following problems */
         /* Allows no transition at all */
 
         /* The correct way to hide a navigation without using display: none */
