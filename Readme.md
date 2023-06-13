@@ -23,3 +23,7 @@ Important point gained from this project:
 
         /* 3. Hide it from screen readers */
         visibility: hidden;
+
+7. Whenever you position an element absolutely, you must set the position of the parent element to relative
+
+8. Transform is very useful for animation

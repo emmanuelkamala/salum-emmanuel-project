@@ -149,6 +149,7 @@ instead 1rem = 1em = 16px
         opacity: 1;
         pointer-events: auto;
         visibility: visible;
+        transform: translateX(0);
     }
 
    .nav-open .icon-mobile-nav[name="close-outline"] {
