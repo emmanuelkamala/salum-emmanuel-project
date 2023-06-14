@@ -232,4 +232,20 @@ instead 1rem = 1em = 16px
     .logos img {
         height: 1.2rem;
     }
+
+    .step-img-box:nth-child(2) {
+        grid-row: 1;
+    }
+
+    .step-img-box:nth-child(6) {
+        grid-row: 5;
+    }
+
+    .step-img-box {
+        transform: translateY(2.4rem);
+    }
+
+    .testmonials {
+        grid-template-columns: 1fr;
+    }
 }
