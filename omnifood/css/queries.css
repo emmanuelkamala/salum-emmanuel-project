@@ -213,5 +213,9 @@ instead 1rem = 1em = 16px
     .g-3-cols,
     .g-2-cols{
         grid-template-columns: 1fr;
-    } 
+    }
+
+    .hero {
+        padding: 0 3.2rem;
+    }
 }
