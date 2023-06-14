@@ -263,6 +263,10 @@ instead 1rem = 1em = 16px
         grid-row: 1;
     }
 
+    .cta-text-box {
+        padding: 3.2rem;
+    }
+
     .grid--footer {
         grid-template-columns: repeat(3, 1fr);
     }
