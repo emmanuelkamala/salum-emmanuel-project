@@ -32,6 +32,9 @@ allLinks.forEach(link => {
 const sectionHeroEl = document.querySelector('.section-hero');
 const obs = new IntersectionObserver((entries)=> {
     const ent = entries[0];
+    if(!ent.isIntersecting) {
+        document.querySelector('.header').classList.add('sticky');
+    }
 }, {
    root: null,
    threshold: 1,
