@@ -33,11 +33,12 @@ const sectionHeroEl = document.querySelector('.section-hero');
 const obs = new IntersectionObserver((entries)=> {
     const ent = entries[0];
     if(!ent.isIntersecting) {
-        document.querySelector('.header').classList.add('sticky');
+        document.body.classList.add('sticky');
     }
 }, {
    root: null,
-   threshold: 1,
+   threshold: 0,
+   rootMargin: '-80px'
 });
 
 obs.observe(sectionHeroEl);
