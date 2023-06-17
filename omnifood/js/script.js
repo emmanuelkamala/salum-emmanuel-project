@@ -29,6 +29,7 @@ allLinks.forEach(link => {
     });
 });
 
+const sectionHeroEl = document.querySelector('.section-hero');
 const obs = new IntersectionObserver(function(entries, observer) {
     entries.forEach(entry => {
         if(!entry.isIntersecting) {
@@ -37,4 +38,6 @@ const obs = new IntersectionObserver(function(entries, observer) {
             document.querySelector('.header').classList.remove('sticky');
         }
     });
-}
+});
+
+obs.observe(sectionHeroEl);
