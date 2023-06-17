@@ -35,6 +35,9 @@ const obs = new IntersectionObserver((entries)=> {
     if(!ent.isIntersecting) {
         document.body.classList.add('sticky');
     }
+    if(ent.isIntersecting) {
+        document.body.classList.remove('sticky');
+    }
 }, {
    root: null,
    threshold: 0,
