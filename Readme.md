@@ -7,6 +7,7 @@ Important point gained from this project:
     tintandshade.com
     cssgradient.io
     css-tricks.com
+    squoosh.app (for image compression)
 
 4. Remember always when styling a link class make sure you add pseudo class link or visited
       item:link, item:visited
@@ -27,3 +28,4 @@ Important point gained from this project:
 7. Whenever you position an element absolutely, you must set the position of the parent element to relative
 
 8. Transform is very useful for animation
+
