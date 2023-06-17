@@ -17,5 +17,10 @@ allLinks.forEach(link => {
                 behavior: 'smooth'
             });
         }
+
+        if(href !== '#' && href.startsWith('#')) {
+            const sectionEl = document.querySelector(href);
+            sectionEl.scrollIntoView({ behavior: 'smooth' });
+        }
     });
 });
