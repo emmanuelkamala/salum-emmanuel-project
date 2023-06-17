@@ -30,7 +30,7 @@ allLinks.forEach(link => {
 });
 
 const sectionHeroEl = document.querySelector('.section-hero');
-const obs = new IntersectionObserver(function(entries, observer) {
+const obs = new IntersectionObserver(()=> {
     entries.forEach(entry => {
         if(!entry.isIntersecting) {
             document.querySelector('.header').classList.add('sticky');
