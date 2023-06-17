@@ -98,6 +98,15 @@ strong {
     background-color: var(--brand-darker);
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    z-index: 999;
+}
+
 /* Mobile */
 
 .btn-mobile-nav {
