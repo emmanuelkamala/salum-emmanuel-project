@@ -28,3 +28,13 @@ allLinks.forEach(link => {
         }
     });
 });
+
+const obs = new IntersectionObserver(function(entries, observer) {
+    entries.forEach(entry => {
+        if(!entry.isIntersecting) {
+            document.querySelector('.header').classList.add('sticky');
+        } else {
+            document.querySelector('.header').classList.remove('sticky');
+        }
+    });
+}
