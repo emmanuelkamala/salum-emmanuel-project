@@ -22,5 +22,9 @@ allLinks.forEach(link => {
             const sectionEl = document.querySelector(href);
             sectionEl.scrollIntoView({ behavior: 'smooth' });
         }
+
+        if(link.classList.contains('main-nav-link')) {
+            document.querySelector('.header').classList.toggle('nav-open');
+        }
     });
 });
