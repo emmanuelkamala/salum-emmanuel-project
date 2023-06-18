@@ -11,3 +11,7 @@ body {
     color: #777;
     font-weight: 400;
 }
+
+.header {
+    height: 95vh;
+}
