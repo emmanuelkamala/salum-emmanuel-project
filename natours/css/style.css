@@ -107,6 +107,18 @@ body {
     }
 }
 
+@keyframes momeInButton {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
 .btn:link,
 .btn:visited {
   text-transform: uppercase;
@@ -115,6 +127,7 @@ body {
   display: inline-block;
   border-radius: 100px;
   transition: all .2s ease-in-out;
+  position: relative;
 }
 
 .btn:hover {
@@ -147,4 +160,9 @@ body {
 
 .btn-white::after {
     background-color: #fff;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
 }
