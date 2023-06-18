@@ -41,6 +41,14 @@ body {
     height: 35px;
 }
 
+.text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
 .heading-primary {
     color: #fff;
     text-transform: uppercase;
@@ -59,3 +67,4 @@ body {
     font-weight: 700;
     letter-spacing: 17.4px;
 }
+
