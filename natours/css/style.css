@@ -137,6 +137,12 @@ body {
     display: inline-block;
     height: 100%;
     width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s ease-in-out;
 }
 
 .btn-white::after {
