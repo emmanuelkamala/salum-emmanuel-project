@@ -60,7 +60,8 @@ body {
     font-weight: 400;
     letter-spacing: 35px;
     animation-name: moveInLeft;
-    animation-duration: 5s;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
 
 }
 
@@ -77,12 +78,12 @@ body {
         transform: translateX(-100px);
     }
 
-    80% {
-        /* transform: translateX(10px); */
+   80% {
+        transform: translateX(10px);
     }
 
     100% {
-        /* opacity: 1; */
-        /* transform: translate(0); */
+        opacity: 1;
+        transform: translate(0);
     }
 }
