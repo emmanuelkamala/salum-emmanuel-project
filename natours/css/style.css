@@ -19,7 +19,6 @@ html {
 
 body {
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
     line-height: 1.7;
     color: #777;
     font-weight: 400;
@@ -37,8 +36,8 @@ body {
 
 .logo-box {
     position: absolute;
-    top: 40px;
-    left: 40px;
+    top: 4rem;
+    left: 4rem;
 }
 
 .logo {
