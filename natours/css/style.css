@@ -80,6 +80,11 @@ body {
   animation: moveInButton 1s ease-in-out;
   animation-fill-mode: backwards; }
 
+.row {
+  max-width: 114rem;
+  background-color: #eee;
+  margin: 0 auto; }
+
 .header {
   height: 95vh;
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.807), rgba(40, 180, 133, 0.79)), url("../images/hero.jpg");
