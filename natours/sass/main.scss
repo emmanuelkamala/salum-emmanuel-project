@@ -173,12 +173,13 @@ body {
         z-index: -1;
         transition: all .4s ease-in-out;
     }
+
+    &--animated {
+        animation: moveInButton 1s ease-in-out;
+        animation-fill-mode: backwards;
+    }
 }
 
-.btn:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
-    opacity: 0;
-}
 
 .btn--animated {
     animation: moveInButton 1s ease-in-out;
