@@ -1,4 +1,4 @@
-@mixin cleafix {
+@mixin clearfix {
     &::after {
         content: "";
         display: table;
