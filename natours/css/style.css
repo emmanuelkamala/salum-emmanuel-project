@@ -88,8 +88,9 @@ body {
     margin-bottom: 8rem; }
   .row .col-1-of-2 {
     width: calc((100% - 6rem) / 2);
-    background-color: red;
-    margin-right: 6rem; }
+    background-color: red; }
+    .row .col-1-of-2:not(:last-child) {
+      margin-right: 6rem; }
 
 .header {
   height: 95vh;
