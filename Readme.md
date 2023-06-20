@@ -29,3 +29,20 @@ Important point gained from this project:
 
 8. Transform is very useful for animation
 
+### Responsive design principles
+  1. Fluid layouts
+       - to allow webpages to adopt the current viewport width/height
+       - use % or vw/vh units instead of px
+       - use max-width instead of width
+
+  2. Responsive units
+      - use rem instead of px
+    
+  3. Flexible images
+      - by default images do not scale automatically as we change the viewport size
+         so we need to fix this
+      - always use % for image dimensions, together with max-width property
+
+  4. Media queries
+      
+
