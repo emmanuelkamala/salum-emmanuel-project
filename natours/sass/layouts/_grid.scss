@@ -8,7 +8,7 @@
     }
 
     .col-1-of-2 {
-        width: calc((94% - #{$gutter-horizontal}) / 2);
+        width: calc((100% - #{$gutter-horizontal}) / 2);
         background-color: red;
         float: left;
 
