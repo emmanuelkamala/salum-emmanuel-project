@@ -57,7 +57,7 @@
 .btn-text {
     &:link,
     &:visited {
-        font-size: 1.6rem;
+        font-size: $default-font-size;
         color: $color-primary;
         display: inline-block;
         text-decoration: none;
@@ -67,8 +67,8 @@
     }
 
     &:hover {
-        background-color: $color-white;
-        color: $color-grey-dark;
+        background-color: $color-primary;
+        color: $color-white;
         box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
         transform: translateY(-2px);
     }
