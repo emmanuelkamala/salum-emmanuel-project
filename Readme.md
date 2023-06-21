@@ -29,6 +29,8 @@ Important point gained from this project:
 
 8. Transform is very useful for animation
 
+9. background-clip: text; color: transparent;
+
 ### Responsive design principles
   1. Fluid layouts
        - to allow webpages to adopt the current viewport width/height
@@ -44,5 +46,8 @@ Important point gained from this project:
       - always use % for image dimensions, together with max-width property
 
   4. Media queries
+
+
+
       
 
