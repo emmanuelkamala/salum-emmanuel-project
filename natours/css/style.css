@@ -51,11 +51,24 @@ body {
   .heading-secondary:hover {
     transform: skewY(-2deg) skewX(12deg); }
 
+.heading-tertiary {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.paragraph {
+  font-size: 1.6rem; }
+  .paragraph:not(:last-child) {
+    margin-bottom: 3rem; }
+
 .u-center-text {
   text-align: center; }
 
 .u-mb-8 {
   margin-bottom: 8rem; }
+
+.u-mb-2 {
+  margin-bottom: 2rem; }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
