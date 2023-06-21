@@ -41,7 +41,8 @@ body {
 .heading-secondary {
   font-size: 3.5rem;
   text-transform: uppercase;
-  font-weight: 700; }
+  font-weight: 700;
+  background-image: linear-gradient(to right, #7ed56f, #28b485); }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
