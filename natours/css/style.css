@@ -64,10 +64,10 @@ body {
 .u-center-text {
   text-align: center; }
 
-.u-mb-8 {
+.u-mb-lg {
   margin-bottom: 8rem; }
 
-.u-mb-2 {
+.u-mb-sm {
   margin-bottom: 2rem; }
 
 .btn:link, .btn:visited {
