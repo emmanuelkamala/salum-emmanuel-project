@@ -62,6 +62,12 @@
         top: 12rem;
         right: 2rem;
         width: 75%;
+    }
+
+    &__heading-span {
+        padding: 1rem 1.5rem;
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
         
     }
     
