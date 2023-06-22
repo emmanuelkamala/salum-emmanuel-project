@@ -206,6 +206,10 @@ body {
     box-decoration-break: clone; }
     .card__heading-span--1 {
       background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.89), rgba(255, 119, 48, 0.89)); }
+  .card__details ul {
+    list-style: none;
+    width: 80%;
+    margin: 0 auto; }
 
 .feature-box {
   background-color: rgba(255, 255, 255, 0.8);
