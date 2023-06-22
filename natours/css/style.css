@@ -210,6 +210,10 @@ body {
     list-style: none;
     width: 80%;
     margin: 0 auto; }
+    .card__details ul li {
+      text-align: center;
+      font-size: 1.5rem;
+      padding: 1rem; }
 
 .feature-box {
   background-color: rgba(255, 255, 255, 0.8);
