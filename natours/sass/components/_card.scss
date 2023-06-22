@@ -1,11 +1,12 @@
 .card {
     perspective: 150rem;
     position: relative;
+    height: 50rem;
 
     &__side {
         background-color: orange;
         height: 50rem;
-        transition: all 0.8s;
+        transition: all 0.8s ease;
         font-size: 4rem;
         position: absolute;
         top: 0;
