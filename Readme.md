@@ -31,6 +31,7 @@ Important point gained from this project:
 8. Transform is very useful for animation
 
 9. background-clip: text; color: transparent;
+10. use overflow hidden when the border radius is not seen due to image overflow
 
 ### Responsive design principles
   1. Fluid layouts
