@@ -8,6 +8,7 @@ Important point gained from this project:
     cssgradient.io
     css-tricks.com
     squoosh.app (for image compression)
+    unsplash.com
 
 4. Remember always when styling a link class make sure you add pseudo class link or visited
       item:link, item:visited
