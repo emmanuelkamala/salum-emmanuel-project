@@ -70,6 +70,9 @@ body {
 .u-mb-sm {
   margin-bottom: 2rem; }
 
+.u-mt-xl {
+  margin-top: 10rem; }
+
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
