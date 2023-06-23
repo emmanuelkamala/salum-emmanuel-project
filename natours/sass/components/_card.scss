@@ -28,6 +28,14 @@
             &--1 {
                 background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
             }
+
+            &--2 {
+                background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+            }
+
+            &--3 {
+                background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+            }
         }
     }
 
@@ -47,6 +55,14 @@
 
         &--1{
             background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), url('../../images/nat-5.jpg');
+        }
+
+        &--2{
+            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), url('../../images/nat-6.jpg');
+        }
+
+        &--3{
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), url('../../images/nat-7.jpg');
         }
 
 
@@ -69,6 +85,14 @@
         box-decoration-break: clone;
 
         &--1 {
+            background-image: linear-gradient(to right bottom, rgba($color-secondary-light, 0.89), rgba($color-secondary-dark, 0.89));
+        }
+
+        &--2 {
+            background-image: linear-gradient(to right bottom, rgba($color-primary-light, 0.89), rgba($color-primary-dark, 0.89));
+        }
+
+        &--3 {
             background-image: linear-gradient(to right bottom, rgba($color-secondary-light, 0.89), rgba($color-secondary-dark, 0.89));
         }
     }
