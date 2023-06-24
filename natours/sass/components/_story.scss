@@ -5,7 +5,24 @@
     background-color: $color-white;
     border-radius: 3px;
     padding: 6rem;
-    padding-left: 9rem;
     font-size: $default-font-size;
     transform: skewX(-12deg);
+
+    &__shape {
+        width: 15rem;
+        height: 15rem;
+        float: left;
+
+        &--1 {
+            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+        }
+
+        &--2 {
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+        }
+
+        &--3 {
+            background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark);
+        }
+    }
 }
