@@ -5,8 +5,17 @@
     background-color: $color-white;
     border-radius: 3px;
     padding: 6rem;
+    padding-left: 9rem;
     font-size: $default-font-size;
     transform: skewX(-12deg);
+
+    & > * {
+        transform: skewX(12deg);
+    }
+
+    &__img {
+       height: 100%;
+    }
 
     &__shape {
         width: 15rem;
@@ -16,7 +25,7 @@
         shape-outside: circle(50% at 50% 50%);
         -webkit-clip-path: circle(50% at 50% 50%);
         clip-path: circle(50% at 50% 50%);
-
+        transform: translateX(-3rem);
 
         &--1 {
             background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);

@@ -33,6 +33,7 @@ Important point gained from this project:
 9. background-clip: text; color: transparent;
 10. use overflow hidden when the border radius is not seen due to image overflow
 11. shape-outside: circle(50%); float: left;
+12. use height of image to make image visible
 
 ### Responsive design principles
   1. Fluid layouts
