@@ -25,10 +25,7 @@
 }
 
 .section-stories {
-    // background-image: linear-gradient(to right bottom, rgba($color-primary-light, 0.7),
-    // rgba($color-primary-dark, 0.8)),
-    // url('../images/nat-10.jpg');
-    // background-size: cover;
+    position: relative;
     padding: 15rem 0;
     background-color: $color-grey-light-1;
 }
