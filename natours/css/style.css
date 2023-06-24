@@ -290,11 +290,14 @@ body {
   .story:hover .story__caption {
     opacity: 1;
     transform: translate(-50%, -50%); }
+  .story:hover .story__img {
+    transform: translateX(-3rem) scale(1);
+    filter: blur(3px) brightness(80%); }
   .story > * {
     transform: skewX(12deg); }
   .story__img {
     height: 100%;
-    transform: translateX(-3rem); }
+    transform: translateX(-3rem) scale(1.4); }
   .story__shape {
     width: 15rem;
     height: 15rem;
@@ -323,7 +326,8 @@ body {
     font-size: 1.7rem;
     text-align: center;
     opacity: 0;
-    transition: all .5s; }
+    transition: all .5s;
+    backface-visibility: hidden; }
 
 .row {
   max-width: 114rem;
