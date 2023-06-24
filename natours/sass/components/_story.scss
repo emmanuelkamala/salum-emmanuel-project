@@ -26,6 +26,7 @@
     &__img {
        height: 100%;
        transform: translateX(-3rem) scale(1.4);
+       transition: all .5s;
     }
 
     &__shape {
