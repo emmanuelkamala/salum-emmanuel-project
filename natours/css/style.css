@@ -291,7 +291,9 @@ body {
     height: 15rem;
     float: left;
     -webkit-shape-outside: circle(50% at 50% 50%);
-    shape-outside: circle(50% at 50% 50%); }
+    shape-outside: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%); }
     .story__shape--1 {
       background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
     .story__shape--2 {
