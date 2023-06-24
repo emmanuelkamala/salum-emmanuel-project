@@ -20,6 +20,7 @@
 
     &__img {
        height: 100%;
+       transform: translateX(-3rem);
     }
 
     &__shape {
@@ -32,8 +33,6 @@
         clip-path: circle(50% at 50% 50%);
         transform: translate(-3rem, -3rem) skewX(12deg);
         position: relative;
-
-
 
         &--1 {
             background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
