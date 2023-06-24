@@ -277,6 +277,17 @@ body {
     font-size: 1.5rem;
     margin-bottom: 2.5rem; }
 
+.story {
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 6rem;
+  padding-left: 9rem;
+  font-size: 1.6rem;
+  transform: skewX(-12deg); }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
