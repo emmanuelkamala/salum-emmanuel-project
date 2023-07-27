@@ -36,6 +36,7 @@ Important point gained from this project:
 11. shape-outside: circle(50%); float: left;
 12. use height of image to make image visible
 13. use figure tag for image and figcaption for caption
+14. linear-gradient with angle is better than linear-gradient with to bottom
 
 ### Responsive design principles
   1. Fluid layouts
