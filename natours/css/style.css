@@ -362,6 +362,9 @@ body {
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
     border: 3px solid #55c57a; }
 
+.form::-webkit-input-placeholder {
+  color: #999; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
