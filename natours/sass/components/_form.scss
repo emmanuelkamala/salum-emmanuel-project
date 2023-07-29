@@ -10,11 +10,12 @@
        background-color: rgba($color-white, .5);
        border: none;
        font-family: inherit;
+       border: 3px solid transparent;
 
        &:focus {
-             outline: none;
-             box-shadow: 0 1rem 2rem rgba($color-black, .1);
-             border: 3px solid $color-primary;
+        outline: none;
+        box-shadow: 0 1rem 2rem rgba($color-black, .1);
+        border: 3px solid $color-primary;
        }
     }
 
