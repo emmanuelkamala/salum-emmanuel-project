@@ -14,17 +14,19 @@
        width: 90%;
        display: block;
 
+       &::-webkit-input-placeholder {
+        color: $color-grey-dark-2;
+       }
+
        &:focus {
         outline: none;
         box-shadow: 0 1rem 2rem rgba($color-black, .1);
-        border: 3px solid $color-primary;
+        border-bottom: 3px solid $color-primary;
        }
     }
 
-    &::-webkit-input-placeholder {
-        color: $color-grey-dark-2;
-    }
-    
+  
+
     &__label {
      
     }
