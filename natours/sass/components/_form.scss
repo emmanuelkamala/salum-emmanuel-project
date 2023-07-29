@@ -1,7 +1,6 @@
 .form {
     &__group:not(:last-child) {
-       margin: 3rem 0;
-       position: relative;
+       margin-bottom: 2rem;
     }
 
     &__input {
@@ -11,6 +10,12 @@
        background-color: rgba($color-white, .5);
        border: none;
        font-family: inherit;
+
+       &:focus {
+             outline: none;
+             box-shadow: 0 1rem 2rem rgba($color-black, .1);
+             border: 1px solid $color-primary;
+       }
     }
 
     &__label {
