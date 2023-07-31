@@ -381,7 +381,17 @@ body {
   color: #999; }
 
 .form__radio-group {
-  display: inline-block; }
+  display: inline-block;
+  width: 49%; }
+
+.form__radio-label {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-left: 2rem;
+  margin-top: .7rem;
+  display: inline-block;
+  transition: all .3s;
+  color: #999; }
 
 .row {
   max-width: 114rem;

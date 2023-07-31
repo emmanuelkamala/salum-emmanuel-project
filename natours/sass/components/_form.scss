@@ -49,6 +49,16 @@
 
     &__radio-group {
         display: inline-block;
-      
+        width: 49%;
+    }
+
+    &__radio-label {
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-left: 2rem;
+        margin-top: .7rem;
+        display: inline-block;
+        transition: all .3s;
+        color: $color-grey-dark-2;
     }
 }
