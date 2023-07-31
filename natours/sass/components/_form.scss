@@ -28,14 +28,19 @@
         }
         
        }
-       &::placeholder-shown + &__label {
+
+      &:placeholder-shown + &__label {
         opacity: 0;
         visibility: hidden;
         transform: translateY(-4rem);
-        display: none;
-        
-       }
+      }
 
+    }
+
+    &__input:placeholder-shown + &__label {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-4rem);
     }
 
     &__label {
