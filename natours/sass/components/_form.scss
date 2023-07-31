@@ -46,4 +46,9 @@
         transition: all .3s;
         color: $color-grey-dark-2;
     }
+
+    &__radio-group {
+        display: inline-block;
+      
+    }
 }

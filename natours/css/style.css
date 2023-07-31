@@ -380,6 +380,9 @@ body {
   transition: all .3s;
   color: #999; }
 
+.form__radio-group {
+  display: inline-block; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
