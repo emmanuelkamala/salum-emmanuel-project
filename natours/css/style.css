@@ -385,13 +385,21 @@ body {
   width: 49%; }
 
 .form__radio-label {
-  font-size: 1.2rem;
-  font-weight: 700;
-  margin-left: 2rem;
-  margin-top: .7rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  position: relative;
+  padding-left: 4rem; }
+
+.form__radio-button {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  border: 3px solid #55c57a;
   display: inline-block;
-  transition: all .3s;
-  color: #999; }
+  position: absolute;
+  left: 0;
+  top: -.4rem;
+  transition: all .2s; }
 
 .row {
   max-width: 114rem;

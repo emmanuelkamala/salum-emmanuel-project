@@ -53,12 +53,21 @@
     }
 
     &__radio-label {
-        font-size: 1.2rem;
-        font-weight: 700;
-        margin-left: 2rem;
-        margin-top: .7rem;
+        font-size: $default-font-size;
+        cursor: pointer;
+        position: relative;
+        padding-left: 4rem;
+    }
+
+    &__radio-button {
+        height: 3rem;
+        width: 3rem;
+        border-radius: 50%;
+        border: 3px solid $color-primary;
         display: inline-block;
-        transition: all .3s;
-        color: $color-grey-dark-2;
+        position: absolute;
+        left: 0;
+        top: -.4rem;
+        transition: all .2s;
     }
 }
