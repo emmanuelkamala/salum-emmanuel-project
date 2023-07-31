@@ -365,6 +365,11 @@ body {
     border-bottom: 3px solid #55c57a; }
     .form__input:focus:invalid {
       border-bottom: 3px solid #ff7730; }
+  .form__input::placeholder-shown + .form__input__label {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-4rem);
+    display: none; }
 
 .form__label {
   font-size: 1.2rem;
