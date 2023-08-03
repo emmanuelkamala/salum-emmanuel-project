@@ -415,11 +415,8 @@ body {
     position: relative;
     opacity: 0; }
 
-.form__radio-input {
-  display: none; }
-  .form__radio-input:checked ~ .form__radio-input__radio-button::after {
-    transform: translate(-50%, -50%) scale(1);
-    opacity: 1; }
+.form__radio-input:checked ~ .form__radio-label .form__radio-button::after {
+  opacity: 1; }
 
 .row {
   max-width: 114rem;

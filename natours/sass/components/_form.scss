@@ -84,16 +84,10 @@
             background-color: $color-primary;
             position: relative;
             opacity: 0;
-
         }
     }
 
-    &__radio-input {
-        display: none;
-
-        &:checked ~ &__radio-button::after {
-            transform: translate(-50%, -50%) scale(1);
-            opacity: 1;
-        }
+    &__radio-input:checked ~ &__radio-label &__radio-button::after {
+        opacity: 1;
     }
 }
