@@ -1,5 +1,9 @@
 
 .btn {
+    cursor: pointer;
+    border: none;
+    
+
     &:link,
     &:visited {
         text-transform: uppercase;
