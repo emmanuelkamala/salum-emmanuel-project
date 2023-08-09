@@ -490,6 +490,15 @@ body {
   .footer__logo-box {
     text-align: center;
     margin-bottom: 8rem; }
+  .footer__logo {
+    width: 15rem;
+    height: auto; }
+  .footer__list {
+    list-style: none; }
+  .footer__item {
+    display: inline-block; }
+    .footer__item:not(:last-child) {
+      margin-right: 1.5rem; }
 
 .section-about {
   background-color: #f7f7f7;
