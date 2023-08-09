@@ -494,7 +494,8 @@ body {
     width: 15rem;
     height: auto; }
   .footer__navigation {
-    border-top: 1px solid #eee; }
+    border-top: 1px solid #eee;
+    padding-top: 2rem; }
   .footer__list {
     list-style: none; }
   .footer__item {
