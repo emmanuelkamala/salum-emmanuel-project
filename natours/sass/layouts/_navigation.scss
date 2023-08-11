@@ -8,7 +8,10 @@
     }
 
     &__background {
-
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+        position: fixed;
     }
 
     &__nav {
@@ -24,6 +27,6 @@
     }
 
     &__link {
-        
+
     }
 }
