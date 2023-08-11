@@ -7,6 +7,11 @@
         background-color: $color-white;
         width: 7rem;
         height: 7rem;
+        position: fixed;
+        right: 6rem;
+        top: 6rem;
+        border-radius: 50%;
+        z-index: 7;
     }
 
     &__background {
