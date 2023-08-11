@@ -521,6 +521,11 @@ body {
     width: 80%;
     float: right; }
 
+.navigation__button {
+  background-color: #fff;
+  width: 7rem;
+  height: 7rem; }
+
 .navigation__background {
   width: 6rem;
   height: 6rem;
@@ -528,7 +533,8 @@ body {
   position: fixed;
   top: 6.5rem;
   right: 6.5rem;
-  background-image: radial-gradient(#7ed56f, #28b485); }
+  background-image: radial-gradient(#7ed56f, #28b485);
+  z-index: 3; }
 
 .section-about {
   background-color: #f7f7f7;
