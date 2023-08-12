@@ -80,6 +80,7 @@
     }
 
     &__checkbox:checked ~ &__nav {
-        transform: scale(80);
+        opacity: 1;
+        width: 100%;
     }
 }

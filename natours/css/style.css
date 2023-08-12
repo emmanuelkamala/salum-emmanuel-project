@@ -586,7 +586,8 @@ body {
   transform: scale(80); }
 
 .navigation__checkbox:checked ~ .navigation__nav {
-  transform: scale(80); }
+  opacity: 1;
+  width: 100%; }
 
 .section-about {
   background-color: #f7f7f7;
