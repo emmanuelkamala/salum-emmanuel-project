@@ -78,4 +78,8 @@
     &__checkbox:checked ~ &__background {
         transform: scale(80);
     }
+
+    &__checkbox:checked ~ &__nav {
+        transform: scale(80);
+    }
 }
