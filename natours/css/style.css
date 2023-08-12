@@ -542,8 +542,7 @@ body {
   top: 6.5rem;
   right: 6.5rem;
   background-image: radial-gradient(#7ed56f, #28b485);
-  z-index: 1;
-  transform: scale(40); }
+  z-index: 1; }
 
 .navigation__nav {
   position: fixed;
