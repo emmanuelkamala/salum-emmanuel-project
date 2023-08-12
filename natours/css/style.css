@@ -578,7 +578,7 @@ body {
     display: inline-block; }
 
 .navigation__link:hover, .navigation__link:active {
-  background-position: 100%;
+  background-position: 88%;
   color: #55c57a;
   transform: translateX(1rem); }
 
