@@ -10,6 +10,7 @@ Important point gained from this project:
     squoosh.app (for image compression)
     unsplash.com
     coverr.co
+    https://easings.net/
 
 4. Remember always when styling a link class make sure you add pseudo class link or visited
       item:link, item:visited
