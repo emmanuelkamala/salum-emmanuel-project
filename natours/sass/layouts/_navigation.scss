@@ -52,5 +52,6 @@
         padding: 1.5rem 2rem;
         display: inline-block;
         transition: all .2s;
+        background-image: linear-gradient(120deg, transparent 0%, transparent 50%, $color-white 50%);
     }
 }
