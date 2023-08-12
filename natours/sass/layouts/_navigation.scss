@@ -11,7 +11,7 @@
         right: 6rem;
         top: 6rem;
         border-radius: 50%;
-        z-index: 7;
+        z-index: 4;
     }
 
     &__background {
@@ -22,17 +22,21 @@
         top: 6.5rem;
         right: 6.5rem;
         background-image: radial-gradient($color-primary-light, $color-primary-dark);
-        z-index: 3;
+        z-index: 1;
+        transform: scale(40);
     }
 
     &__nav {
+        position: fixed;
         height: 100vh;
         width: 100%;
-        z-index: 5;
+        z-index: 2;
     }
 
     &__list {
         @include centerposition;
+        list-style: none;
+        text-align: center;
     }
 
     &__item {
