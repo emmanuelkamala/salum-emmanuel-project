@@ -57,6 +57,11 @@
             background-size: 220%;
             transition: all .7s;
             backface-visibility: hidden;
+
+            span {
+                margin-right: 1.5rem;
+                display: inline-block;
+            }
         }
 
         &:hover,
