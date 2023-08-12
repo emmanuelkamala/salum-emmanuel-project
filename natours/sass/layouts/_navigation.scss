@@ -71,5 +71,9 @@
             color: $color-primary;
             transform: translateX(1rem);
         }
+
+        &__checkbox:checked ~ &__background {
+            transform: scale(80);
+        }
     }
 }
