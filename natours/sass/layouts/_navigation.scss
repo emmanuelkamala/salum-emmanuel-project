@@ -12,6 +12,7 @@
         top: 6rem;
         border-radius: 50%;
         z-index: 4;
+        box-shadow: 0 1rem 3rem rgba($color-black, .1);
     }
 
     &__background {
@@ -28,8 +29,9 @@
     &__nav {
         position: fixed;
         height: 100vh;
-        width: 100%;
         z-index: 2;
+        opacity: 0;
+        width: 0;
     }
 
     &__list {
