@@ -20,5 +20,6 @@
         box-shadow: 0 2rem 4rem rgba($color-black, 0.2);
         @include centerposition;
         text-align: center;
+        border-radius: 3px;
     }
 }
