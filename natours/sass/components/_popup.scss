@@ -20,8 +20,9 @@
     &__content {
         font-size: 2rem;
         color: red;
-        width: 40%;
-        height: 40%;
-        background-color: wheat;
+        width: 70%;
+        height: 40rem;
+        background-color: $color-white;
+        box-shadow: 0 2rem 4rem rgba($color-black, 0.2);
     }
 }

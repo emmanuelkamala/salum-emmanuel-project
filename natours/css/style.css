@@ -438,9 +438,10 @@ body {
   .popup__content {
     font-size: 2rem;
     color: red;
-    width: 40%;
-    height: 40%;
-    background-color: wheat; }
+    width: 70%;
+    height: 40rem;
+    background-color: #fff;
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2); }
 
 .row {
   max-width: 114rem;
