@@ -19,5 +19,6 @@
         background-color: $color-white;
         box-shadow: 0 2rem 4rem rgba($color-black, 0.2);
         @include centerposition;
+        text-align: center;
     }
 }
