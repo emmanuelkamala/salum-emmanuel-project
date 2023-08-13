@@ -431,10 +431,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 61;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  z-index: 61; }
   .popup__content {
     font-size: 2rem;
     color: red;
