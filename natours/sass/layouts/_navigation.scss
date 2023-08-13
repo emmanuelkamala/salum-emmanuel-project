@@ -129,5 +129,10 @@
 
     &__checkbox:checked + &__button &__icon {
         background-color: transparent;
+
+        &::before {
+            top: 0;
+            transform: rotate(135deg);
+        }
     }
 }
