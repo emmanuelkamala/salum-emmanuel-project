@@ -42,6 +42,7 @@ Important point gained from this project:
 14. linear-gradient with angle is better than linear-gradient with to bottom
 15. Display inline block takes the available position
 16. Backround image is very useful for creating shapes
+17. Transform origin is very useful for animation and transition where it shows the origin of the transformation I mean the pivot point
 
 ### Responsive design principles
   1. Fluid layouts
