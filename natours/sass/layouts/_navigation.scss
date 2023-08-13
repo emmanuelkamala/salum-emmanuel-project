@@ -134,5 +134,10 @@
             top: 0;
             transform: rotate(135deg);
         }
+
+        &::after {
+            top: 0;
+            transform: rotate(-135deg);
+        }
     }
 }
