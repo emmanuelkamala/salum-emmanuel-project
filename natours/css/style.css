@@ -445,8 +445,6 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
     border-radius: 3px; }
-  .popup__left img {
-    width: 100%; }
 
 .row {
   max-width: 114rem;
