@@ -15,7 +15,7 @@
         font-size: 2rem;
         color: black;
         width: 70%;
-        height: 40rem;
+        height: 50rem;
         background-color: $color-white;
         box-shadow: 0 2rem 4rem rgba($color-black, 0.2);
         @include centerposition;
@@ -24,10 +24,11 @@
     }
 
     &__left {
-
+        width: 33.33%;
     }
 
     &__img {
-        // display: block;
+        display: block;
+        width: 100%;
     }
 }
