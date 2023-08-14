@@ -43,6 +43,9 @@ Important point gained from this project:
 15. Display inline block takes the available position
 16. Backround image is very useful for creating shapes
 17. Transform origin is very useful for animation and transition where it shows the origin of the transformation I mean the pivot point
+18. Column count is very useful for creating columns in a text, it is better than flexbox
+        column-count: 2; column-gap: 4rem; column-rule: 1px solid var(--color-grey-light-2);
+19. Use column-span: all; to span the text across all columns
 
 ### Responsive design principles
   1. Fluid layouts
