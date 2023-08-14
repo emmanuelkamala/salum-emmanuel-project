@@ -435,6 +435,9 @@ body {
   opacity: 0;
   visibility: hidden;
   transition: all .3s; }
+  .popup:target {
+    opacity: 1;
+    visibility: visible; }
   .popup__content {
     font-size: 2rem;
     color: black;
