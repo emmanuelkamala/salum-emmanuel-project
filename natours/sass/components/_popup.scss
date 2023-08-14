@@ -14,7 +14,7 @@
     &__content {
         font-size: 2rem;
         color: black;
-        width: 70%;
+        width: 75%;
         height: 50rem;
         background-color: $color-white;
         box-shadow: 0 2rem 4rem rgba($color-black, 0.2);
@@ -25,6 +25,11 @@
 
     &__left {
         width: 33.33%;
+        float: left;
+    }
+
+    &__right {
+        width: 66.66%;
     }
 
     &__img {
