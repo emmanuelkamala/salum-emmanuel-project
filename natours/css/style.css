@@ -475,7 +475,7 @@ body {
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto; }
-  .popup__close {
+  .popup__close:link, .popup__close:visited {
     position: absolute;
     top: 2rem;
     right: 2rem;
@@ -484,7 +484,7 @@ body {
     text-decoration: none;
     display: inline-block;
     transition: all .2s; }
-    .popup__close:hover {
+    .popup__close:link:hover, .popup__close:visited:hover {
       color: #55c57a; }
 
 .row {

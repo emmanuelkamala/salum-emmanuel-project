@@ -60,6 +60,9 @@
     }
 
     &__close {
+
+        &:link,
+        &:visited {
         position: absolute;
         top: 2rem;
         right: 2rem;
@@ -71,6 +74,7 @@
 
         &:hover {
             color: $color-primary;
+        }
         }
     }
 }
