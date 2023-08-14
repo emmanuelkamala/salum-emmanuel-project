@@ -463,7 +463,8 @@ body {
     margin-top: 2rem;
     margin-bottom: 2rem;
     column-count: 2;
-    column-gap: 4rem; }
+    column-gap: 4rem;
+    column-rule: 1px solid #eee; }
 
 .row {
   max-width: 114rem;
