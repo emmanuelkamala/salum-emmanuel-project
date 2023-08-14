@@ -58,4 +58,19 @@
         -webkit-hyphens: auto;
         hyphens: auto;
     }
+
+    &__close {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        font-size: 3rem;
+        color: $color-grey-dark-3;
+        text-decoration: none;
+        display: inline-block;
+        transition: all .2s;
+
+        &:hover {
+            color: $color-primary;
+        }
+    }
 }
