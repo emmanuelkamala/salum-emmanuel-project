@@ -438,6 +438,8 @@ body {
   .popup:target {
     opacity: 1;
     visibility: visible; }
+  .popup:target .popup__content {
+    transform: translateY(0); }
   .popup__content {
     font-size: 2rem;
     color: black;
@@ -477,7 +479,7 @@ body {
     hyphens: auto; }
   .popup__close:link, .popup__close:visited {
     position: absolute;
-    top: 2rem;
+    top: 0.01rem;
     right: 2rem;
     font-size: 3rem;
     color: #333;

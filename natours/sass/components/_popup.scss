@@ -15,6 +15,10 @@
         visibility: visible;
     }
 
+    &:target &__content {
+        transform: translateY(0);
+    }
+
     &__content {
         font-size: 2rem;
         color: black;
@@ -64,7 +68,7 @@
         &:link,
         &:visited {
         position: absolute;
-        top: 2rem;
+        top: 0.01rem;
         right: 2rem;
         font-size: 3rem;
         color: $color-grey-dark-3;
