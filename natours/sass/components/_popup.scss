@@ -15,7 +15,7 @@
         font-size: 2rem;
         color: black;
         width: 75%;
-        height: 50rem;
+        height: 45rem;
         background-color: $color-white;
         box-shadow: 0 2rem 4rem rgba($color-black, 0.2);
         @include centerposition;
@@ -32,6 +32,7 @@
     &__right {
         width: 66.666667%;
         display: table-cell;
+        vertical-align: middle;
     }
 
     &__img {

@@ -436,7 +436,7 @@ body {
     font-size: 2rem;
     color: black;
     width: 75%;
-    height: 50rem;
+    height: 45rem;
     background-color: #fff;
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
     position: absolute;
@@ -451,7 +451,8 @@ body {
     display: table-cell; }
   .popup__right {
     width: 66.666667%;
-    display: table-cell; }
+    display: table-cell;
+    vertical-align: middle; }
   .popup__img {
     display: block;
     width: 100%; }
