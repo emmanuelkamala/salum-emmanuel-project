@@ -31,6 +31,18 @@ body {
 
     @include respond(tab-port) {
         padding: 0;
-        
+        background-color: red;
+
+        .heading-primary {
+            font-size: 4px;
+            color: red;
+        }
+    }
+
+    @include respond(phone) {
+        .heading-primary {
+            font-size: px;
+            color: black;
+        }
     }
 }
