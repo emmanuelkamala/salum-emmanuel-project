@@ -16,7 +16,7 @@ html {
     }
 
     @include respond(tab-port) {
-        font-size: 56.25%;
+        font-size: 60%;
     }
 
     @include respond(tab-land) {
