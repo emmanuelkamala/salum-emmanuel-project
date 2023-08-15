@@ -48,6 +48,7 @@ Important point gained from this project:
         column-count: 2; column-gap: 4rem; column-rule: 1px solid var(--color-grey-light-2);
 19. Use column-span: all; to span the text across all columns
 20. hyphens: auto; to break the word into two lines
+21. There is a tab in browser to show media queries
 
 ### Responsive design principles
   1. Fluid layouts
