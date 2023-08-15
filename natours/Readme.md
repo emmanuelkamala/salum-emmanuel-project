@@ -13,6 +13,7 @@ Important point gained from this project:
     coverr.co (for video)
     https://easings.net/ (for animation)
     https://cubic-bezier.com/#.17,.67,.83,.67 (for animation)
+    https://gs.statcounter.com/screen-resolution-stats
 
 4. Remember always when styling a link class make sure you add pseudo class link or visited
       item:link, item:visited
