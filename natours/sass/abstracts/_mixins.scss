@@ -60,4 +60,8 @@
     @if $breakpoint == tab-land {
         @media(max-width: 1200px) { @content };
     }
+
+    @if $breakpoint == desktop {
+        @media(max-width: 1800px) { @content };
+    }
 }
