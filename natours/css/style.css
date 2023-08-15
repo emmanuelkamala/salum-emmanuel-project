@@ -1,3 +1,9 @@
+/* 
+    0 - 600px: Phone
+    600px - 900px: Tab-portrait
+    900px - 1200px: Tab-land
+    1200px - 1800px: Big-desktop
+*/
 *,
 *::before,
 *::after {
