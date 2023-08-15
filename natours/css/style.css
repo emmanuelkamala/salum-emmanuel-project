@@ -35,11 +35,9 @@ body {
   padding: 3rem; }
   @media (max-width: 56.25em) {
     body {
-      padding: 0;
-      background-color: red; }
+      padding: 0; }
       body .heading-primary {
-        font-size: 4px;
-        color: red; } }
+        font-size: 4px; } }
 
 body {
   font-family: "Lato", sans-serif;
