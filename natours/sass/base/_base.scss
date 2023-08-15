@@ -39,10 +39,4 @@ body {
         }
     }
 
-    @include respond(phone) {
-        .heading-primary {
-            font-size: px;
-            color: black;
-        }
-    }
 }

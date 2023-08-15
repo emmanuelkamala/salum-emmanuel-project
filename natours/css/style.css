@@ -40,10 +40,6 @@ body {
       body .heading-primary {
         font-size: 4px;
         color: red; } }
-  @media (max-width: 37.5em) {
-    body .heading-primary {
-      font-size: px;
-      color: black; } }
 
 body {
   font-family: "Lato", sans-serif;
