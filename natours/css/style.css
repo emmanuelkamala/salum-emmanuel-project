@@ -345,13 +345,7 @@ body {
       .card:hover .card__side--front {
         transform: rotateY(0deg); }
       .card:hover .card__side--back {
-        transform: rotateY(0deg); }
-      .card__price-only {
-        font-size: 1.4rem;
-        text-transform: uppercase; }
-      .card__price-value {
-        font-size: 6rem;
-        font-weight: 100; } }
+        transform: rotateY(0deg); } }
 
 .feature-box {
   background-color: rgba(255, 255, 255, 0.8);
