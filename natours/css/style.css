@@ -351,9 +351,10 @@ body {
         top: 0%;
         left: 0%;
         transform: translate(0);
-        width: 100%; }
+        width: 100%;
+        padding: 4rem; }
       .card__price-box {
-        margin-bottom: 8rem; }
+        margin-bottom: 3rem; }
       .card__price-value {
         font-size: 6rem;
         font-weight: 100; } }
