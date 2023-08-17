@@ -353,9 +353,7 @@ body {
         transform: translate(0);
         width: 100%; }
       .card__price-box {
-        text-align: center;
-        margin-bottom: 8rem;
-        color: #fff; }
+        margin-bottom: 8rem; }
       .card__price-only {
         font-size: 1.4rem;
         text-transform: uppercase; }
