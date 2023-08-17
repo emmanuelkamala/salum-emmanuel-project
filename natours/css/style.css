@@ -116,6 +116,9 @@ body {
 
 .u-mt-xl {
   margin-top: 10rem !important; }
+  @media (max-width: 56.25em) {
+    .u-mt-xl {
+      margin-top: 8rem !important; } }
 
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;

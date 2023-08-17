@@ -17,4 +17,8 @@
 
 .u-mt-xl {
     margin-top: 10rem !important;
+
+    @include respond(tab-port) {
+        margin-top: 8rem !important;
+    }
 }
