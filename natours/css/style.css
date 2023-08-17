@@ -617,6 +617,11 @@ body {
     border-top: 1px solid #777;
     padding-top: 2rem;
     display: inline-block; }
+    @media (max-width: 56.25em) {
+      .footer__navigation {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 3rem; } }
   .footer__list {
     list-style: none; }
   .footer__item {
