@@ -151,13 +151,8 @@
                 position: relative;
                 border-radius: 3px;
         
-                &--front {
-                    background-color: $color-white;
-                }
-        
                 &--back {
-                    background-color: gold;
-                    transform: rotateY(180deg);
+                    transform: rotateY(0deg);
         
                     &--1 {
                         background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
