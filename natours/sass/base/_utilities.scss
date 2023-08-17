@@ -5,6 +5,10 @@
 
 .u-mb-lg {
     margin-bottom: 8rem !important;
+
+    @include respond(tab-port) {
+        margin-bottom: 6rem !important;
+    }
 }
 
 .u-mb-sm {

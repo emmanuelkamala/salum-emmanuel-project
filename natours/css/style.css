@@ -107,6 +107,9 @@ body {
 
 .u-mb-lg {
   margin-bottom: 8rem !important; }
+  @media (max-width: 56.25em) {
+    .u-mb-lg {
+      margin-bottom: 6rem !important; } }
 
 .u-mb-sm {
   margin-bottom: 2rem !important; }
