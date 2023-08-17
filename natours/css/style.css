@@ -347,11 +347,11 @@ body {
       .card:hover .card__side--back {
         transform: rotateY(0deg); }
       .card__cta {
-        position: absolute;
-        top: 50%;
-        left: 50%;
+        position: relative;
+        top: 0%;
+        left: 0%;
         transform: translate(-50%, -50%);
-        width: 90%;
+        width: 100%;
         text-align: center; }
       .card__price-box {
         text-align: center;
