@@ -335,7 +335,8 @@ body {
         position: relative;
         border-radius: 3px; }
         .card__side--back {
-          transform: rotateY(0deg); }
+          transform: rotateY(0deg);
+          clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%); }
           .card__side--back--1 {
             background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
           .card__side--back--2 {
