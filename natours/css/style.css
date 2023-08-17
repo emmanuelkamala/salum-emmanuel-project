@@ -581,7 +581,8 @@ body {
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.807), rgba(40, 180, 133, 0.79)), url("../images/hero.jpg");
   background-size: cover;
   background-position: top;
-  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
   @media (max-width: 37.5em) {
     .header {
       clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); } }
