@@ -239,7 +239,8 @@ body {
 .card {
   perspective: 150rem;
   position: relative;
-  height: 50rem; }
+  height: 50rem;
+  @medi; }
   .card__side {
     background-color: orange;
     height: 50rem;
