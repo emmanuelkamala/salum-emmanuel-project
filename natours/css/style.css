@@ -328,13 +328,11 @@ body {
     font-weight: 100; }
   @media (max-width: 56.25em) {
     .card {
-      height: 52rem; }
+      height: auto; }
       .card__side {
         background-color: orange;
-        height: 50rem;
-        transition: all .8s ease;
-        font-size: 4rem;
-        position: absolute;
+        height: auto;
+        position: relative;
         top: 0;
         left: 0;
         width: 100%;
