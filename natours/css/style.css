@@ -345,7 +345,24 @@ body {
       .card:hover .card__side--front {
         transform: rotateY(0deg); }
       .card:hover .card__side--back {
-        transform: rotateY(0deg); } }
+        transform: rotateY(0deg); }
+      .card__cta {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        text-align: center; }
+      .card__price-box {
+        text-align: center;
+        margin-bottom: 8rem;
+        color: #fff; }
+      .card__price-only {
+        font-size: 1.4rem;
+        text-transform: uppercase; }
+      .card__price-value {
+        font-size: 6rem;
+        font-weight: 100; } }
 
 .feature-box {
   background-color: rgba(255, 255, 255, 0.8);
