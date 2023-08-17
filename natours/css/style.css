@@ -328,9 +328,7 @@ body {
     font-weight: 100; }
   @media (max-width: 56.25em) {
     .card {
-      perspective: 150rem;
-      position: relative;
-      height: 50rem; }
+      height: 52rem; }
       .card__side {
         background-color: orange;
         height: 50rem;

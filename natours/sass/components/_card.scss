@@ -143,10 +143,7 @@
     }
 
     @include respond(tab-port) {
-       
-            perspective: 150rem;
-            position: relative;
-            height: 50rem;
+            height: 52rem;
         
             &__side {
                 background-color: orange;
