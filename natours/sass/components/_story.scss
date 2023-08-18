@@ -13,6 +13,10 @@
         padding: 4rem;
     }
 
+    @include respond(phone) {
+        transform: skewY(0);
+    }
+
     &:hover .story__caption {
         opacity: 1;
         transform: translate(-50%, -50%);

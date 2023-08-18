@@ -411,6 +411,9 @@ body {
     .story {
       width: 100%;
       padding: 4rem; } }
+  @media (max-width: 37.5em) {
+    .story {
+      transform: skewY(0); } }
   .story:hover .story__caption {
     opacity: 1;
     transform: translate(-50%, -50%); }
