@@ -49,8 +49,7 @@
         position: relative;
 
         @include respond(phone) {
-        transform: translate(-3rem) skewX(0deg); 
-        
+            transform: translate(-3rem) skewX(0deg); 
         }
 
         &--1 {
