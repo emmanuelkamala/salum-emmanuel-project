@@ -61,6 +61,10 @@
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.8);
     height: 54rem;
 
+    @include respond(tab-port) {
+        height: 50rem;
+    }
+
     &__form {
         width: 50%;
         padding: 6rem;
