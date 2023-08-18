@@ -436,6 +436,9 @@ body {
     clip-path: circle(50% at 50% 50%);
     transform: translate(-3rem) skewX(12deg);
     position: relative; }
+    @media (max-width: 37.5em) {
+      .story__shape {
+        transform: translate(-3rem) skewX(0deg); } }
     .story__shape--1 {
       background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
     .story__shape--2 {
