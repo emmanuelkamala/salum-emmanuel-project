@@ -348,8 +348,7 @@ body {
       .card__price-box {
         margin-bottom: 3rem; }
       .card__price-value {
-        font-size: 6rem;
-        font-weight: 100; } }
+        font-size: 6rem; } }
 
 .feature-box {
   background-color: rgba(255, 255, 255, 0.8);
