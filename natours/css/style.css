@@ -897,11 +897,14 @@ body {
   @media (max-width: 56.25em) {
     .book {
       height: 50rem;
-      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 70%, transparent 70%), url("../images/nat-10.jpg");
-      background-size: 100%; } }
+      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 70%, transparent 70%), url("../images/nat-10.jpg"); } }
   .book__form {
     width: 50%;
     padding: 6rem; }
+    @media (max-width: 56.25em) {
+      .book__form {
+        width: 100%;
+        padding: 4rem; } }
 
 @keyframes moveInLeft {
   0% {
