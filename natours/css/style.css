@@ -330,22 +330,13 @@ body {
     .card {
       height: auto; }
       .card__side {
-        background-color: orange;
         height: auto;
         position: relative;
         border-radius: 3px; }
         .card__side--back {
           transform: rotateY(0deg);
           clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%); }
-          .card__side--back--1 {
-            background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
-          .card__side--back--2 {
-            background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
-          .card__side--back--3 {
-            background-image: linear-gradient(to right bottom, #2998ff, #5643fa); }
       .card:hover .card__side--front {
-        transform: rotateY(0deg); }
-      .card:hover .card__side--back {
         transform: rotateY(0deg); }
       .card__cta {
         position: relative;
