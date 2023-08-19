@@ -27,6 +27,9 @@
             border-bottom: 3px solid $color-secondary-dark;
         }
         
+        @include respond(tab-port) {
+            width: 100%;
+        }
        }
 
     }
