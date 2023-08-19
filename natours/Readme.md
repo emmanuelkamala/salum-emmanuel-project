@@ -50,6 +50,7 @@ Important point gained from this project:
 19. Use column-span: all; to span the text across all columns
 20. hyphens: auto; to break the word into two lines
 21. There is a tab in browser to show media queries
+22. Density and resolution switch is very important for responsive design
 
 ### Responsive design principles
   1. Fluid layouts
