@@ -13,6 +13,7 @@
        border: 3px solid transparent;
        width: 90%;
        display: block;
+       
 
        &::placeholder {
         color: $color-grey-dark-2;
@@ -28,8 +29,15 @@
         }
         
         @include respond(tab-port) {
-            width: 100%;
+            font-size: 3.5rem;
+            border-radius: 12px;
+            background-color: red;
+            font-family: inherit;
+            border: 3px solid green;
+            width: 20%;
+            display: block;
         }
+
        }
 
     }

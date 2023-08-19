@@ -483,7 +483,13 @@ body {
       border-bottom: 3px solid #ff7730; }
     @media (max-width: 56.25em) {
       .form__input:focus {
-        width: 100%; } }
+        font-size: 3.5rem;
+        border-radius: 12px;
+        background-color: red;
+        font-family: inherit;
+        border: 3px solid green;
+        width: 20%;
+        display: block; } }
 
 .form__input:placeholder-shown + .form__label {
   opacity: 0;
