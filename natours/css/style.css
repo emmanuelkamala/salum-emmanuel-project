@@ -908,6 +908,9 @@ body {
       .book__form {
         width: 65%;
         padding: 4rem; } }
+    @media (max-width: 56.25em) {
+      .book__form {
+        width: 100%; } }
 
 @keyframes moveInLeft {
   0% {

@@ -80,5 +80,9 @@
             width: 65%;
             padding: 4rem;
         }
+
+        @include respond(tab-port) {
+            width: 100%;
+        }
     }
 }
