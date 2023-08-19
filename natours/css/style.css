@@ -499,6 +499,9 @@ body {
 .form__radio-group {
   display: inline-block;
   width: 49%; }
+  @media (max-width: 56.25em) {
+    .form__radio-group {
+      width: 100%; } }
 
 .form__radio-label {
   font-size: 1.6rem;
