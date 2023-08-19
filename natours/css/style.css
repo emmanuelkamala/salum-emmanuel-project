@@ -473,6 +473,9 @@ body {
   border: 3px solid transparent;
   width: 90%;
   display: block; }
+  @media (max-width: 56.25em) {
+    .form__input {
+      width: 100%; } }
   .form__input::placeholder {
     color: #999; }
   .form__input:focus {
@@ -481,15 +484,6 @@ body {
     border-bottom: 3px solid #55c57a; }
     .form__input:focus:invalid {
       border-bottom: 3px solid #ff7730; }
-    @media (max-width: 56.25em) {
-      .form__input:focus {
-        font-size: 3.5rem;
-        border-radius: 12px;
-        background-color: red;
-        font-family: inherit;
-        border: 3px solid green;
-        width: 20%;
-        display: block; } }
 
 .form__input:placeholder-shown + .form__label {
   opacity: 0;

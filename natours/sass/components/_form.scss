@@ -13,7 +13,10 @@
        border: 3px solid transparent;
        width: 90%;
        display: block;
-       
+
+       @include respond(tab-port) {
+              width: 100%;
+        }
 
        &::placeholder {
         color: $color-grey-dark-2;
@@ -26,16 +29,6 @@
 
         &:invalid {
             border-bottom: 3px solid $color-secondary-dark;
-        }
-        
-        @include respond(tab-port) {
-            font-size: 3.5rem;
-            border-radius: 12px;
-            background-color: red;
-            font-family: inherit;
-            border: 3px solid green;
-            width: 20%;
-            display: block;
         }
 
        }
