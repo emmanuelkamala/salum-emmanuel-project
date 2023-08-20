@@ -9,8 +9,8 @@
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
     @media (min-resolution: 192dpi) {
-        background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.807),
-         rgba(40, 180, 133, 0.79)), url('../images/hero.jpg');
+        background-image: linear-gradient(to right bottom, rgba($color-secondary-light, 0.807),
+         rgba($color-secondary-dark, 0.79)), url('../images/hero.jpg');
     }
 
     @include respond(phone) {

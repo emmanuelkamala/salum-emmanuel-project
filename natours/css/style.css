@@ -662,7 +662,7 @@ body {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
   @media (min-resolution: 192dpi) {
     .header {
-      background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.807), rgba(40, 180, 133, 0.79)), url("../images/hero.jpg"); } }
+      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.807), rgba(255, 119, 48, 0.79)), url("../images/hero.jpg"); } }
   @media (max-width: 37.5em) {
     .header {
       clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); } }
