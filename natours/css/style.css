@@ -577,7 +577,9 @@ body {
     overflow: hidden;
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.5);
-    transition: all .5s .2s; }
+    transition: all .5s .2s;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); }
   .popup__left {
     width: 33.333333%;
     display: table-cell; }
