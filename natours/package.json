@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "node-sass sass/main.scss css/style.css --watch"
+    "watch:sass": "node-sass sass/main.scss css/style.css --watch",
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css --watch",
+    "concat:sass": "concat sass/main.scss css/style.comp.css --watch"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "concat": "^1.0.3",
     "node-sass": "^9.0.0"
   }
 }
