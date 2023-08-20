@@ -39,6 +39,10 @@ body {
       body .heading-primary {
         font-size: 4px; } }
 
+::selection {
+  background-color: #55c57a;
+  color: #fff; }
+
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
