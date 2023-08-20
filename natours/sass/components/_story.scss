@@ -48,6 +48,13 @@
         transform: translate(-3rem) skewX(12deg);
         position: relative;
 
+        @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+            -webkit-shape-outside: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            shape-outside: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        }
+
         @include respond(phone) {
             transform: translate(-3rem) skewX(0deg); 
         }
