@@ -53,6 +53,7 @@ Important point gained from this project:
 22. Density and resolution switch is very important for responsive design
 23. Use srcset to specify different images for different screen sizes
 24. backdrop-filter: blur(2rem); to blur the background
+24. backface-visibility: hidden; to hide the backface of the element
 
 ### Responsive design principles
   1. Fluid layouts
