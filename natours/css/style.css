@@ -663,9 +663,6 @@ body {
   @media (min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 2000px) {
     .header {
       background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.807), rgba(255, 119, 48, 0.79)), url("../images/hero.jpg"); } }
-  @media (min-width: 2000px) {
-    .header {
-      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.807), rgba(255, 119, 48, 0.79)), url("../images/hero.jpg"); } }
   @media (max-width: 37.5em) {
     .header {
       clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); } }
