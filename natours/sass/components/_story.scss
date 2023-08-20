@@ -40,15 +40,17 @@
     &__shape {
         width: 15rem;
         height: 15rem;
+        -webkit-shape-outside: circle(50% at 50% 50%);
+        shape-outside: circle(50% at 50% 50%);
         float: left;
         transform: translate(-3rem) skewX(12deg);
         position: relative;
 
         @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
-            -webkit-shape-outside: circle(50% at 50% 50%);
-            shape-outside: circle(50% at 50% 50%);
             -webkit-clip-path: circle(50% at 50% 50%);
             clip-path: circle(50% at 50% 50%);
+            width: 15rem;
+            height: 15rem;
         }
 
         @include respond(phone) {
