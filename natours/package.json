@@ -7,13 +7,14 @@
     "watch:sass": "node-sass sass/main.scss css/style.css --watch",
     "compile:sass": "node-sass sass/main.scss css/style.comp.css ",
     "concat:css": "concat -o  css/style.concat.css css/iconstyles.css css/style.comp.css --watch",
-    "prefix:css": " css/style.concat.css -o css/style.prefix.css"
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.concat.css -o css/style.prefix.css",
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.4.15",
     "concat": "^1.0.3",
-    "node-sass": "^9.0.0"
+    "node-sass": "^9.0.0",
+    "postcss-cli": "^10.1.0"
   }
 }
