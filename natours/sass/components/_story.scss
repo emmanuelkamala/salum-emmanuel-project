@@ -46,10 +46,10 @@
         position: relative;
 
         @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
-            -webkit-shape-outside: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-            shape-outside: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-            -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            -webkit-shape-outside: circle(50% at 50% 50%);
+            shape-outside: circle(50% at 50% 50%);
+            -webkit-clip-path: circle(50% at 50% 50%);
+            clip-path: circle(50% at 50% 50%);
         }
 
         @include respond(phone) {
