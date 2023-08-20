@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css --watch",
-    "compile:sass": "node-sass sass/main.scss css/style.comp.css --watch",
-    "concat:sass": "concat sass/main.scss css/style.comp.css --watch"
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css ",
+    "concat:sass": "concat -o  css/style.concat.css css/iconstyles.css css/style.comp.css --watch"
   },
   "author": "",
   "license": "ISC",
