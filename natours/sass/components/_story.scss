@@ -53,6 +53,7 @@
             shape-outside: circle(50% at 50% 50%);
             width: 15rem;
             height: 15rem;
+            border-radius: none;
         }
 
         @include respond(phone) {

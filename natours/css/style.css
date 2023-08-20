@@ -442,7 +442,8 @@ body {
         -webkit-shape-outside: circle(50% at 50% 50%);
         shape-outside: circle(50% at 50% 50%);
         width: 15rem;
-        height: 15rem; } }
+        height: 15rem;
+        border-radius: none; } }
     @media (max-width: 37.5em) {
       .story__shape {
         transform: translate(-3rem) skewX(0deg); } }
